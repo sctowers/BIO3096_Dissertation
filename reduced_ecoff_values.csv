@@ -1,0 +1,705 @@
+Anti-Bacterial,Bacterial,0.002,0.004,0.008,0.016,0.03,0.06,0.125,0.25,0.5,1,2,4,8,16,32,64,128,256,512,Distributions,Observations,(T)ECOFF,Confidence interval
+Minocycline,Enterobacter cloacae,0,0,0,0,0,0,0,0,6,17,185,366,128,39,35,23,0,0,0,5,799,16.0,
+Minocycline,Escherichia coli,0,0,0,0,0,0,1,16,212,588,292,113,82,138,48,8,0,0,0,6,1498,4.0,
+Minocycline,Haemophilus influenzae,0,0,0,0,4,12,162,1896,1507,324,57,11,5,0,0,0,0,0,0,11,3978,1.0,
+Minocycline,Klebsiella aerogenes,0,0,0,0,0,0,0,1,1,7,62,30,4,0,4,1,0,0,0,5,110,16.0,
+Minocycline,Klebsiella oxytoca,0,0,0,0,0,0,0,0,4,135,106,24,13,4,4,0,0,0,0,6,290,8.0,
+Minocycline,Klebsiella pneumoniae,0,0,0,0,0,0,2,3,18,106,432,193,60,48,58,18,0,0,0,6,938,8.0,
+Minocycline,Stenotrophomonas maltophilia,0,0,0,0,0,1,45,52,32,7,1,0,0,0,0,0,0,0,0,5,138,1.0,
+Minocycline,Streptococcus agalactiae,0,0,0,0,3,8,29,15,8,0,2,3,9,102,159,0,0,0,0,5,338,0.5,
+Minocycline,Streptococcus pneumoniae,0,0,0,8,420,2023,1027,169,77,27,21,58,92,119,21,0,0,0,0,9,4062,0.5,
+Minocycline,Streptococcus pyogenes,0,0,0,0,41,41,181,51,18,3,6,8,14,27,13,0,0,0,0,5,403,0.5,
+Spectinomycin,Escherichia coli,0,0,0,0,0,0,0,0,0,0,0,7,132,2071,342,200,357,581,0,15,3690,64.0,
+Spectinomycin,Neisseria gonorrhoeae,0,0,0,0,0,9,2,8,6,13,100,637,2108,1772,625,73,10,0,1,15,5364,64.0,
+Doripenem,Acinetobacter baumannii,0,0,0,0,2,21,104,249,228,306,277,192,252,353,1,16,31,0,0,11,2032,1.0,
+Doripenem,Acinetobacter lwoffii,0,0,0,0,0,37,38,35,26,4,4,0,6,3,0,0,0,0,0,7,153,1.0,
+Doripenem,Enterobacter cloacae,0,0,1,149,606,322,201,71,20,4,1,1,0,0,0,0,0,0,0,5,1376,0.125,
+Doripenem,Enterococcus faecalis,0,0,0,0,1,13,1,14,74,259,1647,4186,1320,338,2,0,1,0,0,13,7856,16.0,
+Doripenem,Escherichia coli,0,0,6,558,1935,99,13,4,0,0,0,3,0,0,0,0,0,0,0,5,2618,0.125,
+Doripenem,Klebsiella pneumoniae,0,0,1,176,1370,840,205,18,4,0,3,4,4,0,1,0,0,0,0,5,2626,0.125,
+Doripenem,Morganella morganii,0,0,0,0,7,52,181,221,79,7,0,0,0,0,0,0,0,0,0,10,547,1.0,
+Doripenem,Proteus mirabilis,0,0,0,2,87,1233,2265,1423,205,27,10,0,0,3,0,0,0,0,0,28,5255,0.5,
+Doripenem,Proteus vulgaris,0,0,0,0,0,40,105,45,5,0,0,0,0,0,0,0,0,0,0,7,195,0.5,
+Doripenem,Pseudomonas aeruginosa,0,0,0,7,68,531,1616,2146,2165,1431,790,877,661,595,45,7,0,0,0,16,10939,1.0,
+Doripenem,Serratia marcescens,0,0,0,4,33,555,1236,367,40,4,0,1,2,7,0,3,0,0,0,12,2252,0.5,
+Piperacillin,Enterococcus faecalis,0,0,0,0,0,13,82,135,484,3713,3401,1205,306,111,5,5,1,2,0,5,9463,8.0,
+Piperacillin,Escherichia coli,0,0,0,0,0,6,16,38,314,4833,6891,1218,388,776,1335,1140,1185,2043,1295,15,21478,8.0,
+Piperacillin,Pseudomonas aeruginosa,0,0,0,0,0,0,9,4,45,340,1095,3429,1446,884,331,237,199,245,192,12,8456,16.0,
+Tobramycin,Acinetobacter baumannii,0,0,0,1,0,3,20,194,915,1044,535,256,226,270,54,64,25,67,13,15,3687,4.0,1 - 8
+Tobramycin,Citrobacter freundii,0,0,0,0,0,1,11,103,860,641,186,53,68,81,25,9,2,1,36,6,2077,2.0,0.5 - 4
+Tobramycin,Citrobacter koseri,0,0,0,0,0,2,4,164,257,100,23,2,2,3,2,0,0,0,0,3,559,-2.0,0.5 - 8
+Tobramycin,Enterobacter cloacae,0,0,0,0,0,9,38,549,4270,2360,395,93,121,241,56,28,4,2,63,6,8229,2.0,0.5 - 4
+Tobramycin,Escherichia coli,0,0,0,2,7,14,103,1107,9173,12724,4422,922,472,363,262,141,14,9,70,37,29805,4.0,1 - 4
+Tobramycin,Klebsiella aerogenes,0,0,0,0,0,0,10,130,1056,738,171,19,56,114,5,3,0,2,53,6,2357,2.0,1 - 4
+Tobramycin,Klebsiella oxytoca,0,0,0,1,0,3,28,555,1971,1264,256,63,58,60,13,8,4,0,85,13,4369,2.0,1 - 4
+Tobramycin,Klebsiella pneumoniae,0,0,0,1,2,13,113,2190,7489,3207,636,193,318,615,147,58,17,6,94,23,15099,2.0,0.5 - 2
+Tobramycin,Morganella morganii,0,0,0,0,0,1,17,174,411,296,84,27,11,4,4,4,0,0,100,5,1133,4.0,1 - 4
+Tobramycin,Proteus mirabilis,0,0,1,1,0,6,3,334,2017,2563,1133,422,195,144,22,5,0,6,125,9,6977,4.0,1 - 4
+Tobramycin,Proteus vulgaris,0,0,0,1,0,0,9,112,348,299,83,13,10,6,1,1,0,0,133,5,1016,4.0,1 - 4
+Tobramycin,Pseudomonas aeruginosa,0,0,0,3,5,12,387,2712,10547,7139,2054,535,345,448,364,224,73,35,116,42,24999,2.0,1 - 4
+Tobramycin,Serratia marcescens,0,0,0,0,0,0,0,28,122,425,416,111,40,16,10,3,0,0,161,5,1332,8.0,4 - 16
+Tobramycin,Staphylococcus aureus,0,0,0,2,8,26,118,441,617,316,59,53,15,25,19,24,13,3,0,26,1739,2.0,0.5 - 2
+Tobramycin,Streptococcus agalactiae,0,0,2,0,0,4,3,0,0,1,8,4,13,105,68,21,5,1,0,3,235,-128.0,8 - 1024
+Meropenem,Acinetobacter baumannii,0,0,0,5,15,81,355,799,866,820,666,236,213,562,55,79,52,5,10,17,4819,4.0,1 - 8
+Meropenem,Bacteroides fragilis,3,4,45,257,739,615,423,146,60,30,27,10,1,0,1,1,0,0,0,31,2362,0.125,0.06 - 0.25
+Meropenem,Bacteroides ovatus,0,0,0,1,11,98,71,34,12,3,0,0,0,0,0,0,0,0,0,5,230,0.25,0.06 - 0.25
+Meropenem,Bacteroides thetaiotaomicron,4,2,10,19,103,356,136,37,13,6,2,0,0,0,0,0,0,0,0,13,688,0.25,0.06 - 0.25
+Meropenem,Bacteroides uniformis,0,0,2,0,8,21,40,6,1,0,0,0,0,0,0,0,0,0,0,3,78,-0.25,0.03 - 0.5
+Meropenem,Bacteroides vulgatus,0,0,9,14,68,62,75,11,5,1,0,0,0,0,0,0,0,0,0,6,245,0.25,0.03 - 0.5
+Meropenem,Clostridium difficile,0,0,0,0,0,0,0,1,6,99,371,83,13,0,0,0,0,0,0,3,573,-8.0,2 - 8
+Meropenem,Enterobacter cloacae,0,0,60,258,569,4476,854,320,144,68,31,15,14,13,2,1,0,0,0,5,6825,0.25,0.03 - 0.5
+Meropenem,Enterococcus faecalis,0,0,0,5,5,12,66,64,172,643,3004,4208,2873,944,168,17,1,0,187,14,12369,16.0,4 - 32
+Meropenem,Escherichia coli,0,0,746,3842,2383,295,82,39,11,7,4,3,1,2,5,0,0,0,0,44,7420,0.06,0.03 - 0.06
+Meropenem,Haemophilus influenzae,0,0,42,265,2760,2853,521,206,42,6,1,0,0,0,0,0,0,0,0,6,6696,0.125,0.03 - 0.25
+Meropenem,Klebsiella aerogenes,0,0,13,85,345,1706,309,68,27,13,28,25,14,5,2,6,1,1,0,14,2648,0.25,0.06 - 0.25
+Meropenem,Klebsiella oxytoca,0,0,84,285,646,2251,78,15,14,7,3,4,1,2,0,1,0,0,0,20,3391,0.125,0.03 - 0.125
+Meropenem,Klebsiella pneumoniae,0,0,141,723,2500,11209,506,210,132,85,54,34,24,24,35,1,0,0,0,13,15678,0.125,0.03 - 0.125
+Meropenem,Listeria monocytogenes,0,0,0,0,1,6,237,45,0,0,0,0,0,0,0,0,0,0,0,3,289,-0.25,0.06 - 0.5
+Meropenem,Morganella morganii,0,0,7,26,99,671,477,142,33,12,1,1,1,0,0,0,0,0,0,6,1470,0.25,0.06 - 1
+Meropenem,Proteus mirabilis,0,0,11,109,693,3510,482,128,75,17,3,4,0,2,0,0,0,0,0,6,5034,0.125,0.06 - 0.25
+Meropenem,Proteus vulgaris,0,0,2,16,87,321,55,11,7,5,1,0,0,0,0,0,0,0,0,5,505,0.25,0.06 - 0.5
+Meropenem,Pseudomonas aeruginosa,0,0,5,39,133,2620,6006,10839,11956,8795,5156,3762,3227,3935,386,443,31,13,0,56,57346,2.0,2 - 8
+Meropenem,Pseudomonas aeruginosa ATCC 27853,0,0,0,0,0,0,2,18,92,27,0,0,0,0,0,0,0,0,0,3,139,-2.0,0.5 - 4
+Meropenem,Serratia marcescens,0,0,13,36,269,5422,778,219,74,44,29,8,9,16,0,1,0,0,0,6,6918,0.125,0.06 - 0.125
+Meropenem,Staphylococcus aureus,0,0,34,215,1083,2164,2579,1037,235,104,36,53,33,11,12,6,0,2,0,46,7604,0.25,0.125 - 0.5
+Meropenem,Streptococcus agalactiae,0,0,21,118,407,535,39,12,4,2,2,2,0,1,1,2,0,0,0,8,1146,0.125,0.03 - 0.25
+Meropenem,Streptococcus pneumoniae,18,275,205,59,20,19,18,41,29,5,0,0,1,0,0,0,0,0,0,6,690,0.016,0.008 - 0.03
+Gatifloxacin,Enterococcus faecalis,0,0,0,0,1,24,59,970,1449,242,58,58,132,830,28,0,0,0,183,7,4034,2.0,
+Gatifloxacin,Escherichia coli,1,35,206,1034,1609,317,76,105,99,29,43,150,315,46,17,2,2,0,0,5,4086,0.125,
+Gatifloxacin,Haemophilus influenzae,1,39,2046,1145,141,29,9,6,6,9,9,1,0,2,0,0,0,0,0,5,3443,0.064,
+Gatifloxacin,Proteus mirabilis,0,0,0,0,15,172,677,230,54,18,54,62,44,14,19,2,0,0,0,5,1361,0.5,
+Gatifloxacin,Streptococcus pneumoniae,0,0,0,2,19,136,1381,9548,3082,196,46,43,21,6,0,0,0,0,229,13,14709,1.0,
+Gatifloxacin,Streptococcus pyogenes,0,0,0,0,2,30,255,358,132,22,0,1,0,0,0,0,0,0,236,5,1036,1.0,
+Benzylpenicillin,Clostridium perfringens,0,0,0,12,22,23,11,6,2,0,1,0,0,0,0,0,0,0,0,3,77,-0.125,
+Benzylpenicillin,Enterococcus faecalis,0,0,0,7,3,3,8,38,81,605,7278,11939,859,237,54,45,0,1,0,18,21158,16.0,
+Benzylpenicillin,Enterococcus faecium,0,0,0,2,5,7,9,316,115,189,546,1624,700,382,460,3026,88,127,42,11,7638,16.0,
+Benzylpenicillin,Haemophilus influenzae,0,0,0,1,66,117,1320,7470,4237,1668,1418,419,3678,23,96,240,0,13,0,4,20766,-1.0,
+Benzylpenicillin,Listeria monocytogenes,0,0,0,7,1,5,105,227,156,28,1,0,0,0,0,0,0,0,0,5,530,1.0,
+Benzylpenicillin,Neisseria meningitidis,0,4,7,61,548,1439,621,338,114,23,1,0,0,0,0,0,0,0,0,15,3156,0.25,
+Benzylpenicillin,Pasteurella multocida,0,0,0,0,19,102,192,182,7,2,13,0,1,4,0,0,0,0,0,10,522,0.5,0.125 - 0.5
+Benzylpenicillin,Staphylococcus aureus,0,0,82,490,429,180,158,269,730,737,651,616,2909,65,283,155,123,1,0,8,7878,0.125,
+Benzylpenicillin,Staphylococcus hyicus,0,0,1,16,45,3,2,1,1,3,33,0,0,0,0,0,0,0,0,4,105,-0.06,0.008 - 0.125
+Benzylpenicillin,Staphylococcus lugdunensis,0,0,1,7,6,24,63,14,5,14,16,17,8,3,5,3,0,0,0,3,186,-0.125,
+Benzylpenicillin,Staphylococcus pseudintermedius,0,0,4,36,3,8,2,5,7,4,35,0,0,0,0,0,0,0,0,3,104,-0.03,0.004 - 0.125
+Benzylpenicillin,Streptococcus agalactiae,0,0,8,188,1629,1346,85,4,0,1,0,0,0,0,0,0,0,0,0,9,3261,0.125,
+Benzylpenicillin,Streptococcus anginosus,0,0,1,37,161,104,23,11,6,4,2,0,0,0,0,0,0,0,0,5,349,0.25,
+Benzylpenicillin,Streptococcus group G,1,59,102,24,4,3,0,0,0,0,0,0,0,0,0,0,0,0,0,5,193,0.064,
+Benzylpenicillin,Streptococcus oralis,0,0,6,85,218,94,80,29,24,20,19,14,16,2,0,0,0,0,0,6,607,0.25,
+Benzylpenicillin,Streptococcus pneumoniae,107,828,4804,13792,5940,1923,1048,1166,972,956,2563,2010,172,0,0,0,0,0,0,33,36281,0.064,
+Benzylpenicillin,Streptococcus pyogenes,9,175,1004,1426,54,7,1,1,0,0,0,0,0,0,0,0,0,0,0,12,2677,0.032,
+Benzylpenicillin,"Streptococcus, viridans group",0,0,13,57,146,171,76,43,28,16,18,9,8,0,0,3,1,0,0,5,589,0.25,
+Cefuroxime,Citrobacter freundii,0,0,0,0,0,0,1,0,43,43,410,620,198,78,399,30,216,12,31,7,2081,8.0,4 - 16
+Cefuroxime,Enterobacter cloacae,0,0,0,0,0,0,0,0,22,55,110,467,1161,571,269,175,864,425,84,15,4203,32.0,16 - 128
+Cefuroxime,Escherichia coli,0,0,1,1,1,5,93,161,1475,4624,20855,46657,14450,3200,3773,263,260,98,73,29,95990,8.0,8 - 16
+Cefuroxime,Haemophilus influenzae,0,0,1,0,23,129,1096,4625,35423,31541,9977,9891,1401,265,77,15,0,0,256,30,94720,2.0,1 - 4
+Cefuroxime,Klebsiella aerogenes,0,0,0,0,0,0,0,3,11,43,368,641,283,128,756,28,164,55,47,11,2527,16.0,8 - 32
+Cefuroxime,Klebsiella oxytoca,0,0,0,0,0,0,5,20,242,1102,1626,1054,330,155,517,36,139,48,82,14,5356,16.0,4 - 16
+Cefuroxime,Klebsiella pneumoniae,0,0,0,0,0,8,68,193,1211,5890,15246,9105,3278,2105,4843,227,181,119,91,20,42565,8.0,4 - 16
+Cefuroxime,Moraxella catarrhalis,0,0,0,1,2,18,169,843,3618,6068,3955,660,175,23,0,0,0,0,0,15,15532,8.0,4 - 16
+Cefuroxime,Proteus mirabilis,0,0,0,0,0,0,9,136,1439,5420,3586,635,171,68,317,24,209,9,120,16,12143,4.0,2 - 4
+Cefuroxime,Staphylococcus aureus,0,0,0,2,3,2,55,363,1265,7230,1429,234,124,890,247,1,0,8,0,8,11853,4.0,1 - 4
+Cefuroxime,Streptococcus pneumoniae,0,12,1166,3474,10124,5451,1433,1437,1121,850,693,2306,3169,546,8,2,0,0,0,16,31792,0.125,0.03 - 0.125
+Tedizolid,Staphylococcus aureus,0,0,0,4,2,11,539,4754,2450,15,4,5,2,1,0,0,0,0,0,9,7787,0.5,
+Tedizolid,Staphylococcus aureus MRSA,0,0,0,2,0,7,264,2028,922,11,3,5,1,1,0,0,0,0,0,9,3244,0.5,
+Tedizolid,Staphylococcus aureus MSSA,0,0,0,2,2,4,275,2726,1528,4,1,0,1,0,0,0,0,0,0,9,4543,0.5,
+Cefepime,Enterobacter cloacae,8,22,175,215,172,214,3776,422,347,346,441,387,239,111,179,14,2,4,0,20,7074,0.125,
+Cefepime,Escherichia coli,0,0,113,245,1061,1442,432,155,109,63,41,72,58,53,67,56,34,43,0,48,4044,0.25,
+Cefepime,Haemophilus influenzae,0,0,0,1,55,190,98,21,27,15,18,1,0,0,0,0,0,0,0,5,426,0.25,
+Cefepime,Klebsiella aerogenes,0,0,0,0,23,61,1247,191,118,119,77,53,38,18,25,2,2,2,0,3,1976,-0.125,
+Cefepime,Proteus mirabilis,0,0,8,7,46,303,29,25,10,9,9,17,10,8,13,7,10,3,0,3,514,-0.125,
+Cefepime,Pseudomonas aeruginosa,0,0,0,1,1,1,100,155,797,3815,10617,7352,6155,4476,3789,121,43,12,0,13,37435,8.0,
+Cefepime,Staphylococcus aureus,0,0,1,12,10,4,8,34,180,548,2043,854,98,33,13,64,8,12,0,38,3922,8.0,
+Cefepime,Streptococcus agalactiae,0,0,0,1,4,262,2544,42,10,6,0,1,0,1,0,0,0,2,0,4,2873,-0.125,
+Daptomycin,Enterococcus faecalis,0,0,0,2,0,9,99,524,3794,10066,5148,525,16,3,7,0,0,0,0,16,20193,4.0,
+Daptomycin,Enterococcus faecium,0,0,0,0,0,5,39,66,198,988,11228,3308,230,7,0,0,0,0,0,16,16069,8.0,
+Daptomycin,Staphylococcus aureus,0,0,0,1,0,706,8047,18321,8505,614,14,0,0,0,0,0,0,0,0,28,36208,1.0,
+Daptomycin,Staphylococcus epidermidis,0,0,0,0,0,39,170,955,895,73,0,0,0,0,0,0,0,0,0,7,2132,1.0,
+Daptomycin,Streptococcus agalactiae,0,0,0,6,8,362,807,570,107,4,0,0,0,0,0,0,0,0,0,9,1864,0.5,
+Oritavancin(with P80),Staphylococcus aureus,46,60,1590,15434,30222,15701,4708,969,14,8,2,2,0,0,0,0,0,0,0,20,68756,0.125,0.06 - 0.25
+AmphotecerinB,Aspergillus fumigatus EUCAST,0,0,0,1,1,11,384,593,1216,223,12,1,0,0,0,0,0,0,0,6,2442,1.0,
+AmphotecerinB,Candida albicans EUCAST,0,0,1,2,13,59,518,506,223,19,1,0,0,0,0,0,0,0,0,6,1342,1.0,
+AmphotecerinB,Candida dubliniensis EUCAST,0,0,0,2,41,61,26,10,6,0,0,0,0,0,0,0,0,0,0,5,146,0.25,
+AmphotecerinB,Candida glabrata EUCAST,0,0,0,0,9,13,215,417,230,22,1,0,0,0,0,0,0,0,0,5,907,1.0,
+AmphotecerinB,Candida krusei EUCAST,0,0,0,0,0,0,6,35,167,53,1,0,0,0,0,0,0,0,0,7,262,1.0,
+AmphotecerinB,Candida parapsilosis EUCAST,0,0,0,0,5,8,26,116,141,17,0,0,0,0,1,0,0,0,0,5,314,1.0,
+AmphotecerinB,Fusarium (Gibberella) fujikuroi SC EUCAST,0,0,0,0,0,0,2,0,2,13,41,29,11,1,0,0,0,0,0,5,99,8.0,
+Fluconazole,Candida albicans EUCAST,0,0,0,0,9,86,813,986,178,15,15,17,23,14,3,7,9,0,0,5,2175,0.5,
+Fluconazole,Candida glabrata EUCAST,0,0,0,0,0,0,2,4,6,45,243,488,271,59,51,74,46,0,0,8,1289,16.0,
+Fluconazole,Candida krusei EUCAST,0,0,0,0,0,0,0,0,0,1,0,5,6,79,138,116,16,2,0,7,363,128.0,
+Fluconazole,Candida parapsilosis EUCAST,0,0,0,0,0,1,27,201,328,159,38,25,17,14,11,8,6,0,0,8,835,2.0,
+Fluconazole,Candida tropicalis EUCAST,0,0,0,0,0,1,23,203,217,51,21,9,9,4,4,4,5,0,0,7,551,1.0,
+Gamithromycin,Mannheimia haemolytica,0,0,0,0,0,2,1,3,67,154,11,2,1,3,0,0,0,0,0,7,244,2.0,
+Gamithromycin,Pasteurella multocida,0,0,0,0,0,0,5,31,106,118,44,2,0,7,0,0,0,0,0,8,313,4.0,1 - 8
+Gamithromycin,Staphylococcus pseudintermedius,0,0,0,0,0,0,1,129,59,1,0,0,1,176,0,0,0,0,0,7,367,0.5,0.250 - 0.500
+Norvancomycin,Staphylococcus aureus,0,0,0,0,0,0,0,42,529,28,1,0,0,0,0,0,0,0,0,5,600,1.0,
+Norvancomycin,Staphylococcus epidermidis,0,0,0,0,0,0,0,4,69,118,9,0,0,0,0,0,0,0,0,5,200,2.0,
+Norvancomycin,Staphylococcus haemolyticus,0,0,0,0,0,0,0,21,58,103,18,0,0,0,0,0,0,0,0,5,200,2.0,
+Norvancomycin,Staphylococcus hominis,0,0,0,0,0,0,1,63,110,22,3,0,0,0,0,0,0,0,0,5,199,1.0,
+Ceftiofur,Escherichia coli,0,0,0,0,0,0,1681,16241,15649,869,166,436,1190,626,0,0,0,0,0,12,36858,1.0,
+Ceftiofur,Mannheimia haemolytica,0,23,103,173,68,28,6,0,1,0,0,0,0,0,0,0,0,0,0,10,402,0.06,
+Ceftiofur,Pasteurella multocida,0,7,31,243,90,13,7,4,1,3,0,0,0,0,0,0,0,0,0,9,399,0.06,0.016 - 0.06
+Ceftiofur,Salmonella enterica,0,0,0,0,0,0,45,419,17884,13939,499,107,373,3271,0,0,0,0,0,10,36537,2.0,
+Moxifloxacin,Bacteroides fragilis,0,0,0,0,2,47,142,544,786,287,133,113,104,42,19,19,0,0,0,7,2238,2.0,
+Moxifloxacin,Clostridium difficile,0,0,0,0,0,0,0,17,347,1186,1371,70,32,184,284,1732,2,0,0,16,5225,4.0,
+Moxifloxacin,Enterococcus faecalis,0,0,0,0,3,44,250,2397,1647,143,88,66,1314,659,12,0,0,0,188,9,6811,1.0,
+Moxifloxacin,Escherichia coli,0,0,9,78,932,1048,164,79,111,51,20,21,153,227,244,67,14,1,0,7,3219,0.25,
+Moxifloxacin,Haemophilus influenzae,0,47,662,7349,5043,855,147,33,13,8,11,7,1,0,1,0,0,0,0,18,14177,0.125,
+Moxifloxacin,Klebsiella pneumoniae,0,0,1,1,219,1398,1240,278,347,301,117,93,116,63,73,8,2,0,0,7,4257,0.25,
+Moxifloxacin,Moraxella catarrhalis,0,0,1,45,653,2827,586,80,7,4,1,2,0,0,0,0,0,0,0,11,4206,0.25,
+Moxifloxacin,Morganella morganii,0,0,0,2,16,127,343,152,23,15,9,30,42,14,4,6,2,0,0,8,785,0.5,
+Moxifloxacin,Neisseria gonorrhoeae,128,100,223,396,282,42,15,13,9,32,47,81,144,43,3,0,0,0,0,6,1558,0.032,
+Moxifloxacin,Proteus mirabilis,0,0,0,0,12,89,487,1550,714,116,46,79,199,45,30,5,2,0,0,10,3374,1.0,
+Moxifloxacin,Proteus vulgaris,0,0,0,0,18,72,277,299,73,28,14,2,11,2,1,0,1,0,0,8,798,1.0,
+Moxifloxacin,Pseudomonas aeruginosa,0,0,0,1,17,19,86,236,758,1924,976,620,671,208,180,182,443,8,0,9,6329,4.0,
+Moxifloxacin,Staphylococcus aureus,0,0,0,144,5428,6123,1821,232,131,255,649,530,1171,4,2,0,0,0,0,11,16490,0.25,
+Moxifloxacin,Staphylococcus epidermidis,0,0,0,0,298,1750,1360,163,570,1600,1948,1049,557,181,0,0,0,0,218,5,9694,0.25,
+Moxifloxacin,Streptococcus agalactiae,0,0,1,0,6,56,371,435,61,11,0,9,0,0,0,0,0,0,197,15,1147,0.5,
+Moxifloxacin,Streptococcus anginosus,0,0,0,1,12,27,122,98,4,0,1,0,0,0,0,0,0,0,0,5,265,0.5,
+Cefalothin,Escherichia coli,0,0,0,0,0,0,0,0,1,4,110,598,1800,1060,181,38,51,10,8,14,3861,32.0,
+Cefalothin,Staphylococcus aureus,0,0,0,0,1,12,136,390,122,30,14,6,1,0,3,2,0,0,0,5,717,1.0,
+Bacitracin,Enterococcus faecium,0,0,0,0,0,0,0,0,0,0,17,129,256,135,80,147,211,1658,156,16,2789,32.0,
+Phenoxymethylpenicillin,Neisseria meningitidis,0,0,0,8,11,13,107,226,140,39,9,0,0,0,0,0,0,0,0,10,553,1.0,
+Tilmicosin,Pasteurella multocida,0,0,0,0,0,0,2,3,17,66,156,171,135,51,4,5,3,0,0,13,613,32.0,16 - 64
+Tilmicosin,Staphylococcus pseudintermedius,0,0,0,0,0,0,0,0,71,50,3,1,4,1,3,176,0,0,0,7,309,2.0,0.500 - 2.000
+Retapamulin,Staphylococcus aureus,0,1,10,34,251,3634,1831,224,35,1,5,0,0,0,1,2,0,0,0,7,6029,0.5,
+Florfenicol,Bordetella bronchiseptica,0,0,0,0,0,0,0,0,1,56,214,489,54,10,15,2,0,0,1,12,842,8.0,
+Florfenicol,Campylobacter coli,0,0,0,0,2,4,2,14,824,6378,1619,89,4,6,1,0,0,0,0,21,8943,4.0,
+Florfenicol,Campylobacter jejuni,0,0,0,0,16,38,53,174,5977,13061,1988,249,30,6,1,0,0,0,0,20,21593,4.0,
+Florfenicol,Enterococcus faecalis,0,0,0,0,0,0,0,0,0,0,284,264,1,0,0,0,0,0,0,5,549,8.0,
+Florfenicol,Enterococcus faecium,0,0,0,0,0,0,0,0,0,0,251,459,2,0,0,0,1,0,0,5,713,8.0,
+Florfenicol,Escherichia coli,0,0,0,0,0,0,0,0,0,1,335,4503,4260,319,21,9,16,0,0,34,9464,16.0,
+Florfenicol,Mannheimia haemolytica,0,0,0,0,0,3,4,51,365,894,70,3,4,3,0,1,0,0,0,27,1398,2.0,
+Florfenicol,Pasteurella multocida,0,0,0,0,0,11,105,1432,3043,119,15,11,5,3,4,0,0,0,0,56,4748,1.0,0.5 - 1
+Florfenicol,Salmonella enterica,0,0,0,0,0,0,0,0,0,1,1580,16073,3601,561,1099,445,238,4,0,20,23602,16.0,
+Florfenicol,Staphylococcus hyicus,0,0,0,0,0,0,0,0,0,7,245,113,0,0,1,0,0,0,0,8,366,4.0,2.000 - 4.000
+Florfenicol,Staphylococcus pseudintermedius,0,0,0,0,0,0,0,0,0,5,256,155,3,1,0,0,0,0,0,9,420,8.0,2.000 - 8.000
+Doxycycline,Campylobacter coli,0,0,0,0,1,13,180,73,46,23,23,70,236,248,143,17,0,0,0,9,1073,1.0,
+Doxycycline,Campylobacter jejuni,0,0,0,0,12,130,282,46,41,13,35,52,132,142,62,0,0,0,0,7,947,0.5,
+Doxycycline,Enterococcus faecalis,0,0,0,0,0,4,86,221,61,8,5,57,329,400,183,0,1,0,0,5,1355,0.5,
+Doxycycline,Enterococcus faecium,0,0,0,0,0,4,267,163,11,14,17,18,229,816,645,35,0,0,0,13,2219,0.5,
+Doxycycline,Escherichia coli,0,0,0,0,0,0,1,25,223,865,1246,371,784,786,578,142,6,1,0,17,5028,4.0,
+Doxycycline,Mannheimia haemolytica,0,0,0,0,1,1,6,56,204,52,13,7,15,8,1,0,0,0,0,9,364,2.0,
+Doxycycline,Pasteurella multocida,0,0,0,0,0,3,83,433,214,79,67,13,5,0,0,0,0,0,0,15,897,1.0,0.25 - 1
+Doxycycline,Salmonella enterica,0,0,0,0,0,0,0,1,7,243,3404,1817,633,302,313,119,0,0,0,5,6839,8.0,
+Doxycycline,Staphylococcus aureus,0,0,0,20,195,1208,2018,742,155,129,245,202,67,37,14,3,1,1,0,7,5037,0.5,
+Doxycycline,Staphylococcus hyicus,0,0,0,0,0,5,61,43,3,0,0,6,18,0,0,0,0,0,0,5,136,0.5,0.125 - 0.500
+Doxycycline,Staphylococcus pseudintermedius,0,0,0,0,1,188,61,4,1,1,10,55,153,0,0,0,0,0,0,9,474,0.125,0.063 - 0.125
+Doxycycline,Streptococcus pneumoniae,0,0,0,3,12,298,2493,1204,183,54,65,191,194,56,7,3,0,0,0,6,4763,0.5,
+Doxycycline,Streptococcus pyogenes,0,0,0,3,18,167,901,740,105,11,3,3,49,159,65,12,1,2,0,7,2239,0.5,
+Cefotaxime-clavulanate,Escherichia coli,0,0,15,128,127,279,120,26,6,7,6,2,2,2,12,0,0,1,0,14,733,0.25,
+Tylosin,Staphylococcus hyicus,0,0,0,0,0,0,0,0,7,44,16,3,0,1,0,4,0,0,0,3,75,-4.0,1.000 - 8.000
+Tylosin,Staphylococcus pseudintermedius,0,0,0,0,0,0,0,4,81,113,1,0,0,1,1,224,0,0,0,9,425,2.0,0.500 - 2.000
+Flumequine,Escherichia coli,0,0,0,0,0,0,1,37,1651,446,31,88,288,192,28,37,40,0,0,10,2839,2.0,
+Flumequine,Mannheimia haemolytica,0,0,0,0,0,2,39,154,37,4,20,45,18,11,1,0,0,0,0,9,331,0.5,
+Flumequine,Pasteurella multocida,0,0,0,0,2,124,209,114,28,13,9,5,9,68,4,40,0,0,0,12,625,0.5,0.125 - 0.5
+Flumequine,Salmonella enterica,0,0,0,0,0,0,1,5,3653,2855,270,49,237,288,82,26,4,0,0,5,7470,2.0,
+Cefquinome,Mannheimia haemolytica,0,3,70,117,77,21,1,0,1,0,0,0,0,0,0,0,0,0,0,7,290,0.06,
+Cefquinome,Pasteurella multocida,0,0,2,42,156,133,14,2,1,11,0,0,0,0,0,0,0,0,0,8,361,0.125,0.03 - 0.125
+Ceftazidime,Enterobacter cloacae,0,3,19,29,145,438,474,728,456,206,105,110,154,186,196,281,123,84,64,56,3801,1.0,
+Ceftazidime,Escherichia coli,0,0,21,53,243,1671,5422,5294,1229,329,201,141,137,146,141,79,25,25,5,82,15162,0.5,
+Ceftazidime,Haemophilus influenzae,0,0,0,0,32,194,172,43,13,10,7,0,0,2,0,0,0,0,0,8,473,0.5,
+Ceftazidime,Klebsiella aerogenes,0,0,1,1,3,45,106,192,122,57,55,42,51,85,98,121,66,237,2,50,1284,1.0,
+Ceftazidime,Klebsiella oxytoca,0,0,4,9,58,368,532,385,159,99,83,66,18,17,15,14,13,12,8,55,1860,0.5,
+Ceftazidime,Klebsiella pneumoniae,0,0,10,9,89,592,1346,1425,611,281,145,88,104,113,146,136,92,112,27,68,5326,0.5,
+Ceftazidime,Proteus mirabilis,0,0,6,86,517,461,92,50,37,30,10,9,2,4,2,2,0,3,0,5,1311,0.125,
+Ceftazidime,Pseudomonas aeruginosa,0,0,0,1,4,7,31,292,969,5999,12379,6295,2724,1691,794,765,206,116,106,74,32379,8.0,
+Ceftazidime,Salmonella enterica,0,0,0,0,0,4,168,415,2144,1663,1089,17,8,10,16,1,0,0,0,5,5535,2.0,
+Ceftazidime,Serratia marcescens,0,0,1,1,12,89,614,836,379,924,526,83,70,43,156,7,21,15,0,6,3777,0.5,
+Kanamycin,Mannheimia haemolytica,0,0,0,0,0,0,1,2,0,2,14,109,150,4,2,6,0,0,0,7,290,16.0,
+Kanamycin,Pasteurella multocida,0,0,0,0,0,0,0,2,4,32,65,128,341,104,11,30,10,7,0,10,734,32.0,8 - 64
+Cefotaxime,Enterobacter cloacae,0,0,1,6,19,64,213,189,129,44,26,19,35,53,90,59,56,58,12,8,1073,0.5,
+Cefotaxime,Escherichia coli,0,5,37,297,1610,4919,2347,458,188,79,49,36,37,51,70,130,21,31,28,40,10393,0.25,
+Cefotaxime,Haemophilus influenzae,42,339,3226,5639,2366,773,157,45,28,24,1,2,0,0,0,0,0,0,0,20,12642,0.064,
+Cefotaxime,Klebsiella aerogenes,0,0,0,0,7,28,33,9,3,3,4,2,8,15,8,9,6,11,0,5,146,0.5,
+Cefotaxime,Klebsiella oxytoca,0,1,7,55,155,80,19,22,9,12,13,14,9,4,11,11,0,1,0,7,423,0.125,
+Cefotaxime,Klebsiella pneumoniae,0,2,12,99,523,745,271,84,65,19,28,36,54,43,49,68,105,199,20,11,2422,0.25,
+Cefotaxime,Neisseria gonorrhoeae,1022,1490,1466,1141,945,805,759,389,66,0,2,0,0,0,0,0,0,0,0,10,8085,0.016,
+Cefotaxime,Neisseria meningitidis,430,879,548,139,21,2,0,0,0,0,0,0,0,0,0,0,0,0,0,18,2019,0.016,
+Cefotaxime,Pseudomonas aeruginosa,0,0,0,0,2,3,2,2,10,13,21,93,412,419,274,155,79,14,0,6,1499,32.0,
+Cefotaxime,Salmonella enterica,0,0,0,0,4,655,11028,1358,189,19,2,6,8,35,11,0,0,0,0,10,13315,0.5,
+Cefotaxime,Staphylococcus aureus,0,0,2,0,1,3,18,103,383,2174,2383,400,92,25,242,10,6,15,0,41,5857,4.0,
+Cefotaxime,Streptococcus agalactiae,0,0,0,17,571,412,59,8,0,0,0,0,0,0,0,2,0,0,0,11,1069,0.125,
+Cefotaxime,Streptococcus group G,0,1,9,151,10,21,0,1,0,0,0,0,0,0,0,0,0,0,0,5,193,0.125,
+Cefotaxime,Streptococcus pneumoniae,28,504,3154,4669,687,255,226,192,319,174,60,11,0,0,0,0,0,0,0,24,10279,0.064,
+Cefotaxime,Streptococcus pyogenes,1,21,416,236,27,22,1,1,0,0,0,0,0,0,0,0,0,0,0,7,725,0.064,
+Amoxicillin,Campylobacter coli,0,0,0,0,0,0,0,7,37,120,204,170,153,7,10,92,0,0,0,6,800,16.0,16 - 64
+Amoxicillin,Campylobacter jejuni,0,0,0,0,0,0,0,1,1,17,27,89,135,19,40,72,0,0,0,5,401,16.0,16 - 64
+Amoxicillin,Escherichia coli,0,0,0,0,0,0,0,0,9,94,732,1599,498,23,6,689,611,53,275,18,4589,8.0,8 - 16
+Amoxicillin,Haemophilus influenzae,0,0,0,0,9,36,698,7885,11398,2915,1361,518,459,740,2269,195,46,8,1,17,28538,2.0,0.5 - 2
+Amoxicillin,Mannheimia haemolytica,0,0,0,3,5,18,71,150,27,2,0,2,32,9,24,13,0,0,0,10,356,0.5,
+Amoxicillin,Pasteurella multocida,0,0,0,5,10,23,50,148,166,9,0,1,6,1,0,9,0,0,0,11,428,0.5,0.25 - 1
+Amoxicillin,Salmonella enterica,0,0,0,0,0,0,0,6,2418,5791,207,6,4,2,14,1148,553,0,0,6,10149,4.0,1 - 2
+Amoxicillin,Streptococcus agalactiae,0,0,0,9,56,254,19,0,0,0,0,0,0,0,0,0,0,0,0,5,338,0.125,0.06 - 0.25
+Amoxicillin,Streptococcus pneumoniae,2,150,1474,2717,2455,245,210,104,156,372,301,45,32,11,0,0,0,0,0,12,8274,0.06,0.016 - 0.06
+Oxacillin,Staphylococcus aureus,0,0,0,5,23,201,1350,5976,9460,1951,340,3695,102,1913,354,85,178,496,199,21,26328,2.0,
+Oxacillin,Staphylococcus coagulase negative,0,0,0,0,13,92,311,949,324,336,546,1897,298,646,9,21,66,142,151,8,5801,1.0,
+Oxacillin,Staphylococcus coagulase negative MRSE,0,0,0,0,0,2,2,2,9,22,43,104,68,25,65,98,73,173,0,5,686,1.0,
+Oxacillin,Staphylococcus epidermidis,0,0,0,0,0,84,566,884,137,366,895,1916,504,1846,37,39,26,41,12,7,7353,1.0,
+Quinupristin-dalfopristin ,Staphylococcus aureus,0,0,0,0,5,15,985,8346,4444,669,40,18,16,12,0,0,0,0,0,9,14550,1.0,
+Linezolid,Enterococcus faecalis,0,0,0,0,0,0,15,36,437,3840,3613,381,6,3,5,0,0,0,0,26,8336,4.0,
+Linezolid,Enterococcus faecium,0,0,0,0,0,0,9,27,373,1680,2889,227,8,1,0,0,0,0,0,24,5214,4.0,
+Linezolid,Staphylococcus aureus,0,0,0,0,0,9,115,183,1624,20065,39100,5403,29,5,1,0,0,0,0,28,66534,4.0,
+Linezolid,Staphylococcus coagulase negative,0,0,0,0,0,4,8,65,557,4175,1476,110,0,0,0,0,0,0,0,11,6395,2.0,
+Linezolid,Staphylococcus epidermidis,0,0,0,0,0,4,41,375,2078,3945,798,27,1,1,0,0,0,0,0,10,7270,2.0,
+Linezolid,Staphylococcus haemolyticus,0,0,0,0,0,0,2,35,354,701,88,4,1,0,0,0,0,0,0,10,1185,2.0,
+Linezolid,Streptococcus agalactiae,0,0,0,0,0,0,0,8,145,1703,282,4,0,0,0,0,0,0,0,15,2142,2.0,
+Linezolid,Streptococcus group G,0,0,0,0,0,0,0,0,14,554,96,10,0,0,0,0,0,0,0,8,674,2.0,
+Linezolid,Streptococcus oralis,0,0,0,0,0,0,0,0,40,218,19,0,1,0,0,0,0,0,0,5,278,2.0,
+Linezolid,Streptococcus pneumoniae,0,0,0,0,0,10,35,593,4665,39282,15577,18,0,0,0,0,0,0,0,18,60180,2.0,
+Linezolid,Streptococcus pyogenes,0,0,0,0,0,11,252,287,2941,15716,4206,13,1,0,0,0,0,0,0,17,23427,2.0,
+Linezolid,"Streptococcus, viridans group",0,0,0,0,0,0,0,6,80,555,114,0,0,0,0,0,0,0,0,6,755,2.0,
+Netilmicin,Pseudomonas aeruginosa,0,0,0,0,0,2,4,8,53,175,235,192,74,36,9,1,7,42,25,5,863,8.0,4.000 - 32.000
+Colistin,Enterobacter cloacae,0,0,0,0,0,0,16,255,398,76,15,6,9,17,23,8,22,2,2,6,849,2.0,0.25 - 2
+Colistin,Escherichia coli,0,0,0,0,0,2,231,2058,2747,845,56,16,14,5,8,2,30,0,0,13,6014,2.0,0.25 - 2
+Colistin,Klebsiella aerogenes,0,0,0,0,0,4,4,53,138,44,10,3,3,3,0,0,4,0,0,5,266,2.0,0.25 - 2
+Colistin,Klebsiella oxytoca,0,0,0,0,0,16,10,143,406,192,22,6,1,10,2,1,2,0,1,6,812,2.0,0.5 - 2
+Colistin,Klebsiella pneumoniae,0,0,0,0,0,0,24,453,938,281,32,18,19,42,19,5,9,0,1,8,1841,2.0,0.5 - 2
+Colistin,Pseudomonas aeruginosa,0,0,0,0,0,4,15,90,1507,9217,7911,400,38,58,14,4,12,0,0,21,19270,4.0,2 - 8
+Tiamulin,Mannheimia haemolytica,0,0,0,0,0,0,0,4,0,5,1,12,111,96,15,0,0,0,0,7,244,32.0,
+Tiamulin,Pasteurella multocida,0,0,0,0,0,0,0,2,1,0,4,11,44,105,100,16,0,0,0,7,283,64.0,32 - 256
+Tiamulin,Staphylococcus hyicus,0,0,0,0,0,0,4,8,96,133,5,4,7,9,6,47,0,0,0,6,319,2.0,0.500 - 4.000
+Isavuconazole,Aspergillus flavus EUCAST,0,0,0,0,0,0,1,5,44,285,96,3,0,0,0,0,0,0,0,6,434,2.0,
+Isavuconazole,Aspergillus fumigatus EUCAST,0,0,0,0,0,1,2,21,199,174,12,9,5,3,0,0,0,0,0,5,426,2.0,
+Isavuconazole,Aspergillus niger EUCAST,0,0,0,0,0,0,0,3,8,53,118,35,7,0,0,0,0,0,0,5,224,4.0,
+Delamanid,Mycobacterium tuberculosis 7H11,93,316,215,63,5,0,0,0,1,1,0,1,1,0,0,0,0,0,0,14,696,0.03,0.008 - 0.03
+Telavancin,Enterococcus faecalis,0,0,0,1,2,7,93,440,756,274,46,31,74,21,3,0,0,0,0,12,1748,2.0,0.5 - 4
+Telavancin,Enterococcus faecium,0,0,0,1,30,150,302,142,36,9,34,12,1,0,0,0,0,0,0,9,717,0.5,0.25 - 2
+Telavancin,Staphylococcus aureus,0,0,0,3,2,45,1209,3667,1342,170,40,7,1,1,0,0,0,0,0,13,6487,1.0,0.25 - 1
+Telavancin,Staphylococcus aureus MRSA,0,0,0,0,0,20,381,1913,835,107,3,7,1,1,0,0,0,0,0,15,3268,1.0,0.25 - 1
+Telavancin,Staphylococcus aureus MSSA,0,0,0,3,2,33,877,2278,699,56,0,0,0,0,0,0,0,0,0,14,3948,1.0,0.25 - 1
+Telavancin,Staphylococcus epidermidis,0,0,0,0,0,3,83,453,219,37,7,0,0,0,0,0,0,0,0,8,802,1.0,0.25 - 1
+Telavancin,Streptococcus agalactiae,0,0,1,0,52,340,60,1,0,0,0,0,0,0,0,0,0,0,0,7,454,0.125,0.06 - 0.25
+Telavancin,Streptococcus pyogenes,0,0,10,43,312,179,46,1,0,0,0,0,0,0,0,0,0,0,0,11,591,0.125,0.03 - 0.25
+Trimethoprim-sulfamethoxazole,Actinobacillus pleuropneumoniae,0,0,1,16,36,80,24,3,1,3,2,0,0,0,0,0,0,0,0,5,166,0.125,0.03 - 0.5
+Trimethoprim-sulfamethoxazole,Campylobacter coli,0,0,0,0,0,1,1,63,148,122,36,13,14,193,200,17,0,0,0,6,808,4.0,1 - 8
+Trimethoprim-sulfamethoxazole,Campylobacter jejuni,0,0,0,0,0,0,0,1,6,46,89,129,65,16,10,3,0,0,0,5,365,16.0,2 - 64
+Trimethoprim-sulfamethoxazole,Escherichia coli,0,0,4,38,493,2291,1559,648,373,115,32,11,3,2,1224,601,0,0,0,8,7394,0.5,0.125 - 1
+Trimethoprim-sulfamethoxazole,Haemophilus influenzae,0,0,15,119,5597,7196,2715,1446,305,189,415,1547,1400,387,93,0,0,0,0,6,21424,0.5,0.125 - 1
+Trimethoprim-sulfamethoxazole,Klebsiella pneumoniae,0,0,0,2,20,888,1786,984,247,147,78,54,19,404,109,93,0,0,0,8,4831,0.5,0.25 - 1
+Trimethoprim-sulfamethoxazole,Mannheimia haemolytica,0,0,3,82,154,37,10,9,8,7,2,6,13,8,0,0,0,0,0,8,339,0.06,0.016 - 0.125
+Trimethoprim-sulfamethoxazole,Morganella morganii,0,0,0,0,0,45,306,431,39,18,5,11,5,123,100,11,3,8,0,6,1105,0.5,0.25 - 1
+Trimethoprim-sulfamethoxazole,Pasteurella multocida,0,0,4,36,156,105,72,26,35,29,3,2,0,8,0,0,0,0,0,11,476,0.125,0.03 - 0.5
+Trimethoprim-sulfamethoxazole,Proteus mirabilis,0,0,0,0,1,361,1062,419,102,120,88,85,26,831,124,56,41,22,0,5,3338,0.5,0.125 - 1
+Trimethoprim-sulfamethoxazole,Serratia marcescens,0,0,0,0,0,33,94,376,516,82,34,37,15,57,161,1,0,0,0,6,1406,2.0,0.5 - 4
+Trimethoprim-sulfamethoxazole,Stenotrophomonas maltophilia,0,0,0,0,2,121,248,441,459,291,143,73,35,57,153,6,0,0,0,8,2029,2.0,0.25 - 4
+Trimethoprim-sulfamethoxazole,Streptococcus agalactiae,0,0,0,4,18,57,75,9,2,0,1,1,0,0,0,0,0,0,0,6,167,0.5,0.125 - 0.5
+Trimethoprim-sulfamethoxazole,Streptococcus dysgalactiae,0,0,0,5,7,66,74,4,0,1,0,0,0,0,0,0,0,0,0,5,157,0.25,0.06 - 0.5
+Trimethoprim-sulfamethoxazole,Streptococcus pneumoniae,0,2,1,6,23,161,2748,14075,4179,2727,1130,2430,2895,824,848,3,0,0,0,12,32052,1.0,0.25 - 1
+Trimethoprim-sulfamethoxazole,Streptococcus uberis,0,0,0,1,1,11,104,94,22,3,0,0,0,0,0,0,0,0,0,6,236,1.0,0.25 - 1
+Tetracycline,Campylobacter coli,0,0,0,0,0,47,618,2033,1065,525,167,71,94,180,302,796,3759,113,1,30,9771,2.0,
+Tetracycline,Campylobacter jejuni,0,0,0,0,0,1061,4687,3542,1251,552,127,68,328,407,1492,3782,4981,57,31,33,22366,1.0,
+Tetracycline,Enterobacter cloacae,0,0,0,0,0,0,0,0,5,107,397,377,81,26,46,12,9,39,0,7,1099,16.0,
+Tetracycline,Enterococcus faecalis,0,0,0,0,0,0,2,20,195,173,58,8,7,76,184,570,206,21,0,16,1520,4.0,
+Tetracycline,Enterococcus faecium,0,0,0,0,0,0,0,103,335,475,101,18,17,45,95,197,155,108,0,13,1649,4.0,
+Tetracycline,Enterococcus hirae,0,0,0,0,0,0,0,1,125,263,125,5,0,2,10,34,3,0,0,8,568,4.0,
+Tetracycline,Escherichia coli,0,0,0,0,0,0,2,20,321,3471,7559,1041,103,660,1245,561,1382,905,6,66,17276,8.0,
+Tetracycline,Haemophilus influenzae,0,0,0,0,0,23,456,3712,29839,4656,345,198,371,286,67,3,1,1,0,23,39958,1.0,
+Tetracycline,Helicobacter pylori,1,0,0,533,1583,2603,1804,387,136,53,13,7,3,7,11,79,0,0,0,5,7220,0.25,
+Tetracycline,Klebsiella aerogenes,0,0,0,0,0,0,0,0,1,27,72,34,11,3,5,0,0,4,0,6,157,16.0,
+Tetracycline,Klebsiella oxytoca,0,0,0,0,0,0,0,13,86,230,64,18,11,1,17,0,6,6,0,7,452,8.0,
+Tetracycline,Klebsiella pneumoniae,0,0,0,0,0,0,1,6,50,387,588,167,65,42,99,2,25,112,0,8,1544,8.0,
+Tetracycline,Mannheimia haemolytica,0,0,0,0,1,1,3,45,298,172,21,4,15,152,163,35,4,0,0,16,914,2.0,
+Tetracycline,Moraxella catarrhalis,0,0,0,0,0,2,172,3888,3357,807,256,114,36,20,26,1,1,0,0,14,8680,2.0,
+Tetracycline,Morganella morganii,0,0,0,0,0,0,0,0,6,40,31,18,5,4,23,15,25,3,0,6,170,8.0,
+Tetracycline,Pasteurella multocida,0,0,0,0,0,0,21,354,1099,279,177,27,52,81,76,29,2,0,1,22,2198,2.0,0.5 - 2
+Tetracycline,Proteus mirabilis,0,0,0,0,0,0,0,0,1,7,4,2,5,81,715,172,28,1,0,6,1016,128.0,
+Tetracycline,Salmonella enterica,0,0,0,0,0,0,0,1,127,1001,5466,814,38,32,338,609,296,0,0,9,8722,8.0,
+Tetracycline,Staphylococcus aureus,0,0,0,0,0,0,71,705,1013,96,6,1,5,13,178,240,224,113,1,21,2666,1.0,
+Tetracycline,Staphylococcus aureus MRSA,0,0,0,0,0,0,0,3,345,52,2,0,0,0,4,4,1,0,0,5,411,1.0,
+Tetracycline,Staphylococcus aureus MSSA,0,0,0,0,0,0,1,9,515,26,2,1,1,1,7,10,3,3,0,5,579,1.0,
+Tetracycline,Staphylococcus coagulase negative,0,0,0,0,0,0,32,130,171,15,78,23,5,7,40,5,13,16,0,7,535,1.0,
+Tetracycline,Staphylococcus hyicus,0,0,0,0,0,0,13,76,22,2,0,0,0,29,12,7,1,0,0,6,162,1.0,0.125 - 1.000
+Tetracycline,Staphylococcus pseudintermedius,0,0,0,0,0,3,179,233,10,1,2,1,3,206,34,98,9,0,2,11,781,0.5,0.125 - 0.500
+Tetracycline,Streptococcus agalactiae,0,0,0,0,0,0,8,26,39,13,0,1,2,23,106,167,33,0,0,8,418,1.0,
+Tetracycline,Streptococcus pneumoniae,0,0,0,1,4,173,2934,6909,1878,120,65,75,97,306,939,392,14,6,0,21,13913,1.0,
+Tetracycline,Streptococcus pyogenes,0,0,0,0,12,200,1018,498,264,50,6,11,17,94,179,91,6,0,0,11,2446,1.0,
+Tetracycline,Yersinia enterocolitica,0,0,0,0,0,0,0,0,2,171,267,20,1,0,0,0,0,1,4,5,466,4.0,
+Streptomycin ,Campylobacter coli,0,0,0,0,0,0,0,0,0,67,114,95,26,102,257,110,100,120,0,9,991,4.0,
+Streptomycin ,Campylobacter jejuni,0,0,0,0,0,0,0,7,229,634,56,4,2,5,2,5,6,2,0,14,952,4.0,
+Streptomycin ,Enterococcus faecalis,0,0,0,0,0,0,0,0,0,0,2,5,4,21,90,279,388,208,232,15,1229,512.0,
+Streptomycin ,Enterococcus faecium,0,0,0,0,0,0,0,0,0,2,5,2,5,99,550,427,34,10,160,14,1294,128.0,
+Streptomycin ,Enterococcus hirae,0,0,0,0,0,0,0,0,0,0,0,1,0,21,154,315,72,0,5,8,568,128.0,
+Streptomycin ,Escherichia coli,0,0,0,0,0,0,0,0,0,76,586,2269,3099,1028,446,1085,1124,166,38,26,9917,16.0,
+Streptomycin ,Salmonella enterica,0,0,0,0,0,0,0,0,0,0,5,1566,4884,2781,895,1125,2246,17,12,17,13531,16.0,
+Streptomycin ,Staphylococcus aureus,0,0,0,0,0,0,0,0,0,6,58,218,267,79,4,6,4,2,0,7,644,16.0,
+Dalbavancin,Staphylococcus aureus,0,0,10,366,10805,16195,1502,309,41,17,2,0,0,2,0,0,0,0,0,15,29249,0.25,0.06 - 0.25
+Dalbavancin,Streptococcus agalactiae,1,1,46,234,232,145,40,15,0,0,0,0,0,0,0,0,0,0,0,8,714,0.125,0.03 - 0.25
+Dalbavancin,Streptococcus pyogenes,6,23,215,416,34,16,4,1,0,0,0,0,0,0,0,0,0,0,0,6,715,0.03,0.008 - 0.06
+Virginiamycin,Enterococcus faecalis,0,0,0,0,0,0,0,0,8,4,20,31,112,224,18,0,0,0,0,8,417,32.0,
+Virginiamycin,Enterococcus faecium,0,0,0,0,0,0,0,82,344,664,982,351,278,127,227,190,17,0,0,20,3262,4.0,
+Piperacillin-tazobactam,Bacteroides fragilis,0,0,0,15,4,67,414,323,207,244,195,171,119,78,39,10,6,6,10,5,1908,1.0,
+Piperacillin-tazobactam,Bacteroides fragilis group,0,0,2,25,14,149,309,585,277,345,458,370,297,165,175,281,16,22,8,7,3498,1.0,
+Piperacillin-tazobactam,Citrobacter freundii,0,0,0,0,0,1,1,1,62,297,782,236,148,143,122,160,135,25,38,6,2151,8.0,
+Piperacillin-tazobactam,Enterobacter cloacae,0,0,0,2,9,15,42,166,672,1607,4117,1715,728,557,682,807,986,168,97,59,12370,8.0,
+Piperacillin-tazobactam,Enterococcus faecalis,0,0,0,6,6,5,12,9,50,210,1093,4393,1325,331,134,30,74,22,4,10,7704,16.0,
+Piperacillin-tazobactam,Escherichia coli,0,0,8,6,9,47,105,221,2978,16380,20925,5517,1917,1239,815,538,765,236,89,83,51795,8.0,
+Piperacillin-tazobactam,Klebsiella aerogenes,0,0,0,0,2,0,2,5,44,243,1012,646,314,346,431,340,146,70,53,53,3654,8.0,
+Piperacillin-tazobactam,Klebsiella oxytoca,0,0,3,2,2,8,12,39,300,1201,1502,523,201,94,54,62,359,193,66,59,4621,8.0,
+Piperacillin-tazobactam,Klebsiella pneumoniae,0,0,2,0,3,11,24,46,444,2539,7785,5041,1802,1076,560,397,1280,336,209,77,21555,8.0,
+Piperacillin-tazobactam,Morganella morganii,0,0,0,1,2,8,94,144,749,166,62,43,31,17,14,11,7,0,0,9,1349,2.0,
+Piperacillin-tazobactam,Proteus mirabilis,0,0,0,2,5,21,365,831,3405,553,135,78,40,29,25,18,8,2,3,14,5520,2.0,
+Piperacillin-tazobactam,Proteus vulgaris,0,0,0,0,6,4,42,61,242,61,15,3,6,4,1,0,2,0,0,5,447,2.0,
+Piperacillin-tazobactam,Pseudomonas aeruginosa,0,0,5,1,0,4,23,37,453,886,3147,10479,5692,3595,1879,1506,3135,863,161,71,31866,16.0,
+Piperacillin-tazobactam,Pseudomonas fluorescens group,0,0,0,0,0,0,1,0,5,24,69,95,74,41,14,8,19,3,118,5,471,16.0,
+Piperacillin-tazobactam,Serratia liquefaciens,0,0,0,0,0,0,0,0,17,95,133,31,8,7,14,7,5,2,142,5,461,8.0,
+Piperacillin-tazobactam,Serratia marcescens,0,0,1,0,0,0,1,4,292,1138,1331,516,189,158,213,141,140,29,1,8,4154,8.0,
+Piperacillin-tazobactam,Staphylococcus aureus,0,0,16,17,19,34,187,526,1374,1526,1523,578,140,77,50,47,30,43,0,45,6187,2.0,
+Piperacillin-tazobactam,Streptococcus agalactiae,0,0,4,8,7,30,156,372,1775,120,3,3,0,1,1,0,2,2,0,8,2484,1.0,
+Piperacillin-tazobactam,Streptococcus anginosus,0,0,0,1,2,10,32,36,78,15,4,2,2,5,1,1,1,5,0,6,195,1.0,
+Piperacillin-tazobactam,Streptococcus group G,0,0,0,11,47,144,49,6,13,1,0,0,0,0,0,0,0,0,0,6,271,0.25,
+Piperacillin-tazobactam,Streptococcus pneumoniae,2,12,421,694,183,72,13,43,145,24,48,47,12,0,0,0,0,0,0,7,1716,0.064,
+Piperacillin-tazobactam,Streptococcus pyogenes,0,0,3,22,188,290,73,8,64,3,1,1,0,0,0,0,0,0,0,7,653,0.25,
+Cefazolin,Klebsiella pneumoniae,0,0,0,0,0,0,0,0,5,71,82,17,8,6,12,1,5,1,0,5,208,4.0,
+Cefazolin,Staphylococcus aureus,0,0,0,0,0,18,359,3277,7870,4718,878,250,181,157,1343,0,0,0,201,5,19252,2.0,
+Chloramphenicol,Campylobacter coli,0,0,0,0,0,0,0,0,11,159,704,705,338,43,0,0,0,0,0,16,1960,16.0,4 - 16
+Chloramphenicol,Campylobacter jejuni,0,0,0,4,0,2,8,34,345,1264,1612,800,238,69,18,2,0,0,1,22,4397,16.0,4 - 16
+Chloramphenicol,Enterococcus faecalis,0,0,0,0,0,0,0,0,0,1,112,5900,18025,405,96,208,10,0,0,15,24757,32.0,8 - 32
+Chloramphenicol,Enterococcus faecium,0,0,0,0,0,0,0,0,0,0,136,4691,7310,758,138,3,3,0,0,28,13039,32.0,8 - 32
+Chloramphenicol,Escherichia coli,0,0,0,0,0,0,0,0,0,2,2336,21965,19115,752,305,736,387,254,0,40,45852,16.0,8 - 16
+Chloramphenicol,Haemophilus influenzae,0,0,0,0,0,0,606,2077,13497,1800,39,47,319,86,0,0,0,0,0,6,18471,2.0,0.5 - 2
+Chloramphenicol,Neisseria meningitidis,0,0,0,0,0,0,5,12,135,537,163,4,2,8,0,0,0,0,0,12,866,2.0,1 - 4
+Chloramphenicol,Pasteurella multocida,0,0,0,0,0,0,14,107,139,45,10,9,44,18,6,1,0,0,0,5,393,1.0,0.5 - 2
+Chloramphenicol,Salmonella enterica,0,0,0,0,0,0,0,0,0,0,1922,24199,26083,1111,94,2380,1343,535,0,24,57667,16.0,8 - 16
+Chloramphenicol,Staphylococcus aureus,0,0,0,0,0,0,0,0,0,10,39,517,1215,61,19,35,2,0,0,6,1898,16.0,8 - 16
+Chloramphenicol,Streptococcus pneumoniae,0,0,0,0,0,1,2,10,66,647,2485,2805,88,260,25,2,0,0,0,8,6391,8.0,2 - 8
+Temocillin,Escherichia coli,0,0,0,0,0,0,2,1,18,156,532,1502,1812,862,357,146,142,79,31,35,5640,16.0,
+Temocillin,Klebsiella pneumoniae,0,0,0,0,0,0,0,0,3,61,193,117,52,27,22,35,23,71,1,7,605,8.0,
+Temocillin,Morganella morganii,0,0,0,0,0,0,0,1,4,28,70,55,11,0,0,0,0,1,0,5,170,8.0,
+Temocillin,Proteus mirabilis,0,0,0,0,0,0,0,1,9,118,136,48,2,2,0,0,0,0,0,7,316,4.0,
+Clindamycin,Bacteroides fragilis,0,0,0,11,20,102,124,297,515,542,252,68,39,12,22,59,17,65,176,7,2321,4.0,
+Clindamycin,Campylobacter coli,0,0,0,0,25,303,2258,3666,1303,457,222,335,268,151,70,0,0,0,0,22,9058,1.0,
+Clindamycin,Campylobacter jejuni,0,0,0,0,649,5219,9415,4182,627,115,44,50,53,32,48,0,0,0,0,19,20434,0.5,
+Clindamycin,Clostridium difficile,0,0,0,1,5,8,21,76,212,478,1113,1398,837,121,14,16,12,387,518,15,5217,16.0,
+Clindamycin,Staphylococcus aureus,0,0,1,23,1080,7188,13636,720,71,26,16,39,1229,1192,88,9,9,66,562,14,25955,0.25,
+Clindamycin,Staphylococcus aureus MRSA,0,0,0,0,3,70,225,71,2,0,0,0,0,0,0,0,1,50,0,5,422,0.25,
+Clindamycin,Staphylococcus aureus MSSA,0,0,0,0,2,176,404,42,2,0,1,0,0,0,0,0,0,2,0,5,629,0.25,
+Clindamycin,Staphylococcus coagulase negative,0,0,0,19,80,271,88,52,7,1,2,1,1,1,0,2,0,115,0,5,640,0.25,
+Clindamycin,Staphylococcus coagulase negative MRSE,0,0,0,0,3,127,222,76,16,4,2,5,23,6,8,18,15,119,0,5,644,0.25,
+Clindamycin,Staphylococcus epidermidis,0,0,0,0,1,84,234,85,1,3,1,1,31,1,133,0,0,63,0,5,638,0.25,
+Clindamycin,Staphylococcus haemolyticus,0,0,0,0,1,26,36,3,0,8,5,1,0,0,19,0,0,5,2,4,106,-0.25,
+Clindamycin,Staphylococcus pseudintermedius,0,0,0,0,2,46,170,4,8,214,0,0,0,0,0,0,0,0,0,8,444,0.25,0.063 - 0.250
+Clindamycin,Streptococcus agalactiae,0,0,0,1,80,390,424,46,3,1,2,1,3,23,11,1,1,17,0,8,1004,0.5,
+Clindamycin,Streptococcus group G,0,0,0,0,7,65,80,26,3,1,0,0,0,0,1,0,0,5,0,4,188,-0.5,
+Clindamycin,Streptococcus oralis,0,0,0,2,27,217,112,23,7,5,4,3,1,13,0,1,1,6,0,5,422,0.5,
+Clindamycin,Streptococcus pneumoniae,0,0,23,140,2511,19650,7742,1039,81,54,306,587,4786,23,422,772,61,28,0,24,38225,0.25,
+Clindamycin,Streptococcus pyogenes,0,0,0,7,3418,5778,1289,104,11,5,2,9,261,5,10,73,0,5,0,14,10977,0.25,
+Ciprofloxacin,Acinetobacter baumannii,0,0,12,7,27,224,833,865,410,174,109,262,118,176,311,360,127,193,3,115,4211,1.0,
+Ciprofloxacin,Campylobacter coli,0,0,0,0,27,592,2176,1240,256,36,6,58,322,482,178,54,2,0,0,44,5429,0.5,
+Ciprofloxacin,Campylobacter jejuni,0,0,0,33,575,8174,8558,1659,187,51,39,326,2493,1515,541,200,34,0,0,46,24385,0.5,
+Ciprofloxacin,Enterobacter cloacae,236,423,330,434,419,207,89,96,80,60,26,36,28,25,33,7,10,2,3,53,2544,0.125,
+Ciprofloxacin,Enterococcus faecalis,0,0,0,2,9,3,34,231,3001,16971,6470,313,334,232,341,593,239,27,180,20,28980,4.0,
+Ciprofloxacin,Enterococcus faecium,0,0,0,0,0,0,12,197,1061,3211,4426,3414,630,25,56,198,35,243,0,28,13508,8.0,
+Ciprofloxacin,Escherichia coli,14,189,3967,7300,1576,613,566,599,196,113,55,131,263,236,565,168,85,59,7,55,16702,0.064,
+Ciprofloxacin,Haemophilus influenzae,46,617,7962,7810,1419,59,32,11,11,11,9,15,6,3,5,0,0,0,0,22,18016,0.064,
+Ciprofloxacin,Klebsiella aerogenes,0,0,52,150,244,112,96,32,49,47,53,26,43,46,45,217,3,13,0,48,1228,0.125,
+Ciprofloxacin,Klebsiella oxytoca,0,0,192,553,389,156,106,50,47,45,37,56,27,22,25,12,1,1,0,54,1719,0.125,
+Ciprofloxacin,Klebsiella pneumoniae,0,4,227,767,1783,913,527,315,251,138,100,86,72,60,149,116,38,30,15,71,5591,0.125,
+Ciprofloxacin,Moraxella catarrhalis,0,0,24,938,6812,2060,261,17,21,5,3,3,0,0,0,0,0,0,0,15,10144,0.125,
+Ciprofloxacin,Morganella morganii,0,15,78,182,45,9,6,1,2,9,8,4,4,2,4,3,0,3,0,8,375,0.064,
+Ciprofloxacin,Neisseria gonorrhoeae,3093,2012,871,311,150,73,101,158,206,261,568,683,711,366,980,46,6,39,0,24,10635,0.016,
+Ciprofloxacin,Neisseria meningitidis,68,1408,409,5,0,5,6,4,0,0,0,0,0,0,0,0,0,0,0,16,1905,0.016,
+Ciprofloxacin,Pasteurella multocida,0,7,58,129,17,2,1,0,0,0,0,0,0,0,0,0,0,0,0,5,214,0.03,0.008 - 0.06
+Ciprofloxacin,Proteus mirabilis,0,1,53,309,1202,272,219,42,50,85,116,66,24,14,24,20,7,7,1,12,2512,0.064,
+Ciprofloxacin,Pseudomonas aeruginosa,0,0,19,42,534,3044,9326,4531,3205,1852,1491,863,924,513,498,720,137,26,105,71,27836,0.5,
+Ciprofloxacin,Salmonella enterica,0,0,75,806,1031,260,73,52,17,0,2,0,1,1,0,0,0,0,0,5,2318,0.064,
+Ciprofloxacin,Serratia marcescens,0,0,6,8,67,221,302,57,52,85,82,49,25,7,8,7,2,0,0,6,978,0.25,
+Ciprofloxacin,Staphylococcus aureus,0,0,3,16,121,785,5424,13558,14717,2982,869,265,1961,425,260,449,383,111,40,68,42369,1.0,
+Ciprofloxacin,Staphylococcus aureus MRSA,0,0,0,0,0,0,1,4,14,3,1,0,6,12,23,76,185,81,0,5,406,1.0,
+Ciprofloxacin,Staphylococcus aureus MSSA,0,0,0,0,0,0,10,83,292,146,9,5,3,4,6,6,10,4,0,5,578,1.0,
+Ciprofloxacin,Staphylococcus coagulase negative,0,0,0,0,8,46,688,1357,514,143,126,152,245,24,60,53,92,18,21,7,3547,1.0,
+Ciprofloxacin,Staphylococcus epidermidis,0,0,0,5,36,143,1228,2582,680,202,234,535,2831,73,149,256,58,15,0,8,9027,1.0,
+Ciprofloxacin,Staphylococcus haemolyticus,0,0,3,0,1,19,142,214,58,12,28,13,285,117,17,34,26,96,0,7,1065,1.0,
+Ciprofloxacin,Stenotrophomonas maltophilia,0,0,1,1,3,26,11,35,150,576,886,529,276,140,20,7,0,0,146,15,2807,16.0,
+Ciprofloxacin,Streptococcus agalactiae,0,0,2,0,0,4,30,106,1559,1511,279,14,2,9,2,0,0,0,193,12,3711,2.0,
+Ciprofloxacin,Streptococcus group G,0,0,0,1,1,0,5,116,475,172,25,3,1,0,1,1,0,0,0,6,801,2.0,
+Ciprofloxacin,Streptococcus pneumoniae,0,0,8,13,26,32,129,1558,11160,42781,15822,1328,299,100,153,100,10,3,1,50,73523,4.0,
+Ciprofloxacin,Streptococcus pyogenes,0,0,0,2,3,4,54,3710,6962,967,855,75,7,1,5,0,0,0,234,14,12879,1.0,
+Cefaclor,Haemophilus influenzae,0,0,0,0,0,0,2,145,843,3648,9436,8396,3867,1481,497,138,18,1,0,15,28472,8.0,
+Cefaclor,Streptococcus pneumoniae,0,0,0,2,11,258,770,939,271,133,45,6,22,46,40,27,11,0,0,6,2581,0.5,
+Ampicillin-sulbactam_ratio,Proteus vulgaris,0,0,0,0,0,0,0,1,0,92,206,316,162,58,17,6,4,0,128,5,990,16.0,
+Trimethoprim,Escherichia coli,0,0,0,0,0,85,292,1012,1956,866,146,53,21,214,471,0,2,6,205,14,5329,2.0,1 - 4
+Trimethoprim,Haemophilus influenzae,3,3,13,35,309,1362,2851,2140,280,78,22,24,41,170,354,418,239,17,16,9,8375,0.5,0.5 - 1
+Trimethoprim,Moraxella catarrhalis,0,0,0,0,0,0,0,0,0,9,12,128,587,1001,225,121,34,2,4,5,2123,64.0,32 - 64
+Trimethoprim,Staphylococcus aureus,0,0,0,0,0,0,5,41,487,818,230,32,10,32,11,9,15,7,0,5,1697,2.0,0.5 - 2
+Trimethoprim,Streptococcus pneumoniae,0,0,0,0,0,0,0,0,5,147,502,2336,1156,76,30,340,0,0,0,6,4592,16.0,8 - 32
+Ampicillin,Campylobacter coli,0,0,0,0,0,0,0,5,24,83,202,341,247,37,58,93,10,0,0,8,1100,16.0,16 - 64
+Ampicillin,Campylobacter jejuni,0,0,0,0,0,0,2,4,26,59,122,122,48,19,26,12,1,3,0,6,444,16.0,4 - 32
+Ampicillin,Enterococcus faecalis,0,0,0,0,1,3,23,207,1018,5862,5703,619,114,34,49,7,2,1,0,26,13643,4.0,1 - 4
+Ampicillin,Enterococcus faecium,0,0,0,0,0,0,10,138,251,605,675,423,163,167,3442,155,63,72,0,20,6164,8.0,4 - 16
+Ampicillin,Escherichia coli,0,0,0,0,0,0,6,21,152,5308,30179,28801,4002,749,16843,11012,1527,6687,196,53,105483,8.0,4 - 16
+Ampicillin,Haemophilus influenzae,0,0,0,2,19,159,2570,6965,12215,2773,1294,610,3178,433,686,437,19,17,270,21,31647,1.0,0.5 - 1
+Ampicillin,Mannheimia haemolytica,0,0,0,1,3,44,101,134,7,2,1,1,29,1,0,14,0,0,0,8,338,0.5,
+Ampicillin,Moraxella catarrhalis,2,13,141,93,38,76,138,112,96,210,298,195,394,375,407,153,29,1,1,6,2772,0.03,0.008 - 0.03
+Ampicillin,Pasteurella multocida,0,0,0,0,0,11,88,307,25,4,2,0,7,1,0,0,0,0,1,12,446,0.5,0.25 - 0.5
+Ampicillin,Proteus mirabilis,0,0,0,0,0,0,0,11,189,1564,1290,122,26,26,1075,148,10,69,0,7,4530,8.0,1 - 8
+Ampicillin,Salmonella enterica,0,0,0,0,0,0,0,12,172,2752,1673,137,16,11,360,32,28,0,0,7,5193,4.0,1 - 4
+Ampicillin,Streptococcus pneumoniae,0,16,169,391,97,37,18,12,17,10,28,9,4,1,0,0,0,0,0,5,809,0.06,0.008 - 0.25
+Lincomycin,Staphylococcus pseudintermedius,0,0,0,0,0,0,1,7,96,112,8,8,5,179,0,0,0,0,0,7,416,2.0,0.500 - 2.000
+Enrofloxacin,Escherichia coli,0,0,0,0,832,1994,153,20,26,11,1,1,1,0,0,0,0,0,0,11,3039,0.125,
+Enrofloxacin,Mannheimia haemolytica,0,2,4,47,198,133,13,58,56,10,9,3,7,1,0,0,0,0,0,12,541,0.125,
+Enrofloxacin,Pasteurella multocida,0,29,115,170,73,20,6,3,29,22,9,0,0,0,0,2,0,0,0,11,478,0.06,0.016 - 0.06
+Enrofloxacin,Staphylococcus hyicus,0,0,0,0,2,13,95,14,1,5,6,0,0,0,0,0,0,0,0,5,136,0.25,0.125 - 0.250
+Enrofloxacin,Staphylococcus pseudintermedius,0,0,0,0,12,53,216,27,17,19,130,0,0,0,0,0,0,0,0,9,474,0.5,0.125 - 0.500
+Nalidixic acid,Campylobacter coli,0,0,0,0,0,0,1,1,2,25,125,1992,1878,460,115,262,607,263,36,48,5767,16.0,
+Nalidixic acid,Campylobacter jejuni,0,0,0,0,0,1,1,2,40,406,1015,7483,2334,423,101,260,1907,444,418,52,14835,16.0,
+Nalidixic acid,Escherichia coli,0,0,0,0,0,0,0,0,192,4751,23654,8395,441,124,151,1227,288,94,0,10,39317,8.0,
+Nalidixic acid,Salmonella enterica,0,0,0,0,0,0,0,0,11,183,10718,26940,3314,260,40,211,220,202,1,10,42100,8.0,
+Mupirocin,Staphylococcus aureus,0,0,0,4,14,478,4112,6074,1402,105,51,72,94,194,86,35,56,24,433,14,13234,1.0,
+Azithromycin,Campylobacter coli,0,0,0,75,1289,4362,2577,547,52,20,5,1,1,1,0,11,862,123,2,28,9928,0.5,0.125 - 0.5
+Azithromycin,Campylobacter jejuni,0,0,0,1988,9189,8838,3534,1125,174,54,12,13,10,1,4,6,213,15,21,31,25197,0.25,0.125 - 0.25
+Azithromycin,Haemophilus influenzae,0,0,0,0,0,59,277,877,5441,15656,8887,1181,118,35,37,8,6,9,9,7,32600,4.0,1 - 8
+Azithromycin,Neisseria gonorrhoeae,0,0,4,28,114,246,294,180,53,4,3,0,0,0,0,0,0,0,0,7,926,2.0,0.5 - 4
+Azithromycin,Salmonella enterica,0,0,0,0,0,0,2,1,6,75,2810,7968,1630,106,19,0,0,0,0,6,12617,16.0,4 - 16
+Azithromycin,Salmonella Typhi,0,0,0,0,0,0,0,0,0,0,9,29,89,35,3,1,0,0,0,5,166,32.0,4 - 64
+Azithromycin,Streptococcus pneumoniae,0,2,380,218,1881,17696,27701,1821,236,267,672,2669,3053,2610,1654,571,5543,4094,0,7,71068,0.125,0.03 - 0.25
+Azithromycin,Streptococcus pyogenes,0,0,0,4,295,2875,15606,3360,108,44,29,117,683,456,151,50,379,186,0,5,24343,0.25,0.03 - 1
+Fosfomycin,Escherichia coli,0,0,0,0,0,0,0,4,224,596,217,47,18,19,15,7,17,23,0,6,1187,4.0,
+Fosfomycin,Proteus mirabilis,0,0,0,0,0,0,6,15,89,188,200,199,242,100,78,88,89,34,0,7,1328,8.0,
+Fosfomycin,Staphylococcus aureus,0,0,0,0,0,0,2,2,113,255,415,411,481,314,123,52,31,3,11,8,2213,32.0,
+Ceftriaxone,Moraxella catarrhalis,0,1,513,819,367,194,376,1487,1186,348,44,1,2,0,0,0,0,0,0,5,5338,0.06,0.03 - 0.25
+Ceftriaxone,Salmonella enterica,0,0,0,3,38,231,127,23,0,2,6,16,22,18,5,2,7,0,0,5,500,0.25,0.06 - 0.5
+Cefixime,Escherichia coli,0,0,3,4,22,101,297,703,676,264,65,43,41,128,6,5,1,1,1,5,2361,2.0,
+Cefixime,Haemophilus influenzae,0,0,98,1202,4408,1339,200,90,63,25,7,1,0,0,0,0,0,0,0,9,7433,0.125,
+Tildipirosin,Mannheimia haemolytica,0,0,0,0,0,0,0,13,90,52,32,2,1,2,1,1,0,0,0,6,194,2.0,
+Tildipirosin,Pasteurella multocida,0,0,0,0,0,0,0,3,54,101,75,22,3,1,0,4,0,0,0,7,263,4.0,1 - 8
+Tildipirosin,Staphylococcus pseudintermedius,0,0,0,0,0,0,0,0,0,4,121,23,0,0,2,182,0,0,0,6,332,4.0,2.000 - 4.000
+Teicoplanin,Enterococcus faecalis,0,0,0,0,11,138,840,1114,2007,1454,157,13,7,9,3,20,3,1,189,15,5966,2.0,0.25 - 2
+Teicoplanin,Enterococcus faecium,0,0,0,0,0,13,340,1737,2605,1225,141,15,23,82,34,153,8,2,193,28,6571,2.0,0.5 - 2
+Teicoplanin,Staphylococcus aureus,0,0,0,0,4,11,116,6686,27037,18135,3703,768,123,24,1,1,0,0,0,20,56609,2.0,1 - 4
+Teicoplanin,Staphylococcus aureus MRSA,0,0,0,0,1,0,3,31,224,239,61,6,0,1,0,0,0,0,0,5,566,2.0,1 - 4
+Teicoplanin,Staphylococcus epidermidis,0,0,0,0,0,0,67,445,850,1808,2577,2055,760,151,1,1,0,0,0,12,8715,16.0,8 - 32
+Teicoplanin,Staphylococcus haemolyticus,0,0,0,0,0,0,11,33,64,231,346,294,170,62,2,1,0,0,0,9,1214,32.0,8 - 64
+Teicoplanin,Streptococcus agalactiae,0,0,0,0,13,49,133,184,45,0,0,0,0,0,0,0,0,0,0,8,424,0.5,0.125 - 0.5
+Teicoplanin,Streptococcus pneumoniae,0,0,0,11,8041,12508,1239,40,3,0,0,0,0,0,0,0,0,0,0,10,21842,0.25,0.06 - 0.25
+Metronidazole,Clostridium difficile,0,0,0,2,96,485,1291,2595,2119,896,302,52,3,0,0,1,0,0,0,17,7842,2.0,
+Metronidazole,Helicobacter pylori,0,0,0,93,136,218,500,597,1089,1786,1781,336,133,224,324,421,384,3024,122,11,11168,8.0,
+Fusidic_acid,Staphylococcus aureus,0,0,0,101,1197,4480,7394,4148,1108,327,394,734,497,344,72,73,30,28,53,30,20980,0.5,
+Fusidic_acid,Staphylococcus aureus MRSA,0,0,0,0,6,93,334,95,5,3,5,19,12,6,1,3,2,1,16,7,601,0.5,
+Fusidic_acid,Staphylococcus aureus MSSA,0,0,0,0,3,69,609,655,164,23,24,48,47,78,23,2,0,1,4,8,1750,0.5,
+Fusidic_acid,Staphylococcus coagulase negative,0,0,0,3,3,82,202,190,20,5,1,21,54,142,63,5,0,1,16,5,808,0.5,
+Ceftobiprole,Enterobacter cloacae,0,0,0,5,237,757,286,97,41,44,60,120,86,105,37,93,21,0,0,9,1989,0.25,
+Ceftobiprole,Escherichia coli,0,0,3,326,3050,1738,416,95,32,23,4,10,18,371,25,143,29,0,0,9,6283,0.25,
+Ceftobiprole,Klebsiella aerogenes,0,0,0,33,80,383,36,13,5,6,3,5,4,53,0,0,0,0,0,9,621,0.125,
+Ceftobiprole,Klebsiella pneumoniae,0,0,18,841,737,391,125,71,20,18,11,4,12,360,51,20,53,0,0,7,2732,0.25,
+Ceftobiprole,Morganella morganii,0,0,0,86,126,41,6,0,1,1,0,0,0,6,0,3,0,0,0,5,270,0.125,
+Ceftobiprole,Proteus mirabilis,0,0,2,201,1247,397,47,23,15,5,8,5,4,19,3,13,0,0,0,8,1989,0.125,
+Ceftobiprole,Pseudomonas aeruginosa,0,0,0,1,4,6,4,45,256,1059,1292,950,834,555,98,168,0,0,0,17,5272,8.0,
+Ceftobiprole,Serratia marcescens,0,0,1,1,55,879,384,129,84,50,15,18,10,52,3,30,0,0,0,10,1711,1.0,
+Ceftobiprole,Staphylococcus aureus,0,0,0,1,0,95,313,10356,7881,5781,2262,119,1,3,0,0,0,0,0,10,26812,1.0,
+Ceftobiprole,Staphylococcus aureus MRSA,0,0,0,0,1,9,14,106,4463,9138,2808,208,1,3,0,0,0,0,0,21,16751,1.0,
+Ceftobiprole,Staphylococcus aureus MSSA,0,0,0,0,4,73,383,10181,5665,320,8,0,0,0,0,0,0,0,0,20,16634,1.0,
+Ceftobiprole,Streptococcus pneumoniae,49,64,1023,2229,539,363,299,1025,1369,306,32,2,0,0,0,0,0,0,0,15,7300,0.032,
+Amikacin,Acinetobacter baumannii,0,0,0,0,0,0,0,3,45,294,690,517,230,135,149,50,11,70,0,8,2194,8.0,2 - 16
+Amikacin,Citrobacter freundii,0,0,0,0,0,0,0,1,28,371,617,139,38,26,19,4,0,1,0,6,1244,8.0,2 - 16
+Amikacin,Enterobacter cloacae,0,0,0,0,0,2,9,70,425,2108,3095,475,177,202,93,13,0,2,4,15,6675,8.0,1 - 8
+Amikacin,Escherichia coli,0,0,0,2,1,0,1,28,329,4723,15660,6316,1134,191,56,36,4,5,45,21,28531,8.0,4 - 8
+Amikacin,Klebsiella aerogenes,0,0,0,1,0,0,0,4,25,426,1101,396,180,147,88,21,4,1,4,14,2398,8.0,4 - 16
+Amikacin,Klebsiella oxytoca,0,0,0,0,0,1,1,6,65,1156,1454,385,69,41,28,13,4,0,1,17,3224,8.0,2 - 8
+Amikacin,Klebsiella pneumoniae,0,0,0,0,0,0,0,14,373,5348,4478,566,386,612,104,21,6,25,77,15,12010,8.0,2 - 8
+Amikacin,Proteus mirabilis,0,0,0,0,0,0,0,9,56,418,1453,1639,637,145,33,13,4,11,7,10,4425,16.0,4 - 32
+Amikacin,Proteus vulgaris,0,0,0,0,0,0,0,8,35,118,109,46,14,1,3,4,0,0,0,6,338,8.0,2 - 16
+Amikacin,Pseudomonas aeruginosa,0,0,0,0,0,0,0,92,318,917,5395,6232,2845,983,88,139,15,5,0,12,17029,16.0,4 - 32
+Amikacin,Serratia marcescens,0,0,0,0,0,0,0,2,4,74,319,120,27,15,10,6,1,2,0,6,580,8.0,2 - 16
+Amikacin,Staphylococcus aureus,0,0,2,0,1,0,0,37,101,349,1873,2666,943,322,83,64,3,2,0,18,6446,16.0,4 - 16
+Avilamycin,Enterococcus faecalis,0,0,0,0,0,0,0,0,2,94,840,209,28,4,5,1,0,0,0,15,1183,8.0,
+Avilamycin,Enterococcus faecium,0,0,0,0,0,0,0,0,14,166,1052,1545,467,51,16,79,453,0,0,26,3843,16.0,
+Avilamycin,Enterococcus hirae,0,0,0,0,0,0,0,0,6,62,151,271,67,11,0,0,0,0,0,8,568,16.0,
+Ceftaroline,Haemophilus influenzae,1,8,1420,423,185,68,26,15,5,0,0,0,0,0,0,0,0,0,0,5,2151,0.032,
+Ceftaroline,Staphylococcus aureus,0,0,0,0,5,27,935,5637,3380,1542,474,3,6,0,0,0,0,0,0,5,12009,0.5,
+Eravacycline,Enterococcus faecalis,0,0,5,8,373,863,108,3,4,0,0,0,0,0,0,0,0,0,0,5,1364,0.125,
+Eravacycline,Enterococcus faecium,0,0,6,22,500,399,37,11,10,2,0,0,0,0,0,0,0,0,0,5,987,0.125,
+Eravacycline,Klebsiella pneumoniae,0,0,0,0,0,5,148,830,505,148,88,27,7,0,0,0,0,0,0,6,1758,1.0,
+Eravacycline,Proteus mirabilis,0,0,0,0,0,0,1,15,108,436,482,78,2,0,0,0,0,0,0,6,1122,4.0,
+Eravacycline,Proteus vulgaris,0,0,0,0,0,0,3,30,156,228,12,1,0,0,0,0,0,0,0,5,430,2.0,
+Eravacycline,Pseudomonas aeruginosa,0,0,0,2,1,1,2,4,13,39,62,464,677,215,45,0,1,0,0,5,1526,32.0,
+Eravacycline,Serratia marcescens,0,0,0,0,0,0,1,7,118,553,283,37,8,0,0,0,0,0,0,6,1007,4.0,
+Eravacycline,Staphylococcus aureus,0,0,7,19,523,1711,512,112,53,21,0,0,0,0,0,0,0,0,0,5,2958,0.25,
+Eravacycline,Stenotrophomonas maltophilia,0,0,0,0,1,3,27,127,339,456,199,68,15,2,0,0,0,0,0,5,1237,4.0,
+Gentamicin,Acinetobacter baumannii,0,0,0,0,0,6,21,226,607,451,150,79,48,80,38,73,36,107,7,22,1929,2.0,1 - 4
+Gentamicin,Campylobacter coli,0,0,0,0,4,38,160,1550,4160,1911,175,4,2,1,5,99,0,0,0,50,8109,1.0,0.5 - 2
+Gentamicin,Campylobacter jejuni,0,0,0,2,33,141,1688,6829,14541,2346,108,12,5,0,5,62,0,0,1,41,25773,1.0,0.5 - 2
+Gentamicin,Citrobacter freundii,0,0,0,1,0,0,17,269,798,363,56,36,37,93,15,55,1,0,32,7,1773,2.0,1 - 4
+Gentamicin,Enterobacter cloacae,1,0,1,3,26,125,324,1202,3647,1384,160,87,124,92,19,103,50,52,60,38,7460,2.0,0.25 - 2
+Gentamicin,Enterococcus faecalis,0,0,0,0,0,2,2,7,18,37,73,156,880,1761,704,61,57,69,686,25,4513,64.0,32 - 128
+Gentamicin,Enterococcus faecium,0,0,0,0,0,0,0,1,5,14,83,555,1147,575,93,13,11,46,320,24,2863,32.0,16 - 64
+Gentamicin,Enterococcus hirae,0,0,0,0,0,0,0,0,1,4,50,98,234,151,28,0,0,0,2,8,568,32.0,4 - 32
+Gentamicin,Escherichia coli,0,0,4,6,26,49,525,8521,32063,21068,4423,1213,1399,3728,6362,512,138,167,70,93,80274,2.0,1 - 2
+Gentamicin,Klebsiella aerogenes,0,0,0,0,1,0,10,133,747,603,161,47,32,10,3,12,2,16,48,17,1825,2.0,1 - 4
+Gentamicin,Klebsiella oxytoca,0,0,1,0,0,2,17,648,2113,910,167,56,36,31,9,34,8,9,83,26,4124,2.0,1 - 2
+Gentamicin,Klebsiella pneumoniae,0,0,3,3,5,9,157,2016,6158,2164,302,223,259,266,150,186,160,168,93,42,12322,2.0,1 - 2
+Gentamicin,Mannheimia haemolytica,0,0,0,0,0,0,2,4,6,123,315,57,2,0,3,28,1,0,0,12,541,4.0,
+Gentamicin,Morganella morganii,0,0,0,0,0,2,19,239,518,287,60,26,11,25,19,26,7,6,97,10,1342,2.0,1 - 4
+Gentamicin,Pasteurella multocida,0,0,0,0,0,2,4,4,28,114,243,201,8,6,60,43,4,0,0,13,717,8.0,2 - 8
+Gentamicin,Proteus mirabilis,0,0,0,0,1,4,34,747,2220,2333,1006,243,123,216,52,136,22,16,127,18,7280,4.0,1 - 4
+Gentamicin,Proteus vulgaris,0,0,0,0,0,0,16,174,318,194,44,16,5,13,3,5,3,2,130,5,923,2.0,0.5 - 4
+Gentamicin,Pseudomonas aeruginosa,0,0,0,1,3,3,58,333,959,4452,8682,4317,1410,647,203,451,46,149,147,50,21861,8.0,
+Gentamicin,Salmonella enterica,0,0,0,0,0,0,77,18588,14804,2687,300,75,283,882,1240,3,1,0,0,10,38940,2.0,0.5 - 2
+Gentamicin,Serratia marcescens,0,0,0,0,0,2,17,124,819,403,56,22,32,46,54,19,8,50,156,7,1808,2.0,0.5 - 4
+Gentamicin,Staphylococcus aureus,0,0,2,14,44,125,1491,11982,18694,8591,1618,549,400,622,856,118,278,123,287,52,45794,2.0,1 - 2
+Gentamicin,Staphylococcus aureus MSSA,0,0,0,0,1,1,36,275,193,53,9,2,3,0,1,1,1,0,0,5,576,2.0,1 - 2
+Gentamicin,Staphylococcus hyicus,0,0,0,0,1,22,73,36,2,0,1,1,0,0,0,0,0,0,0,5,136,0.5,0.125 - 1.000
+Gentamicin,Staphylococcus pseudintermedius,0,0,0,1,1,88,193,34,3,0,25,129,0,0,0,0,0,0,0,9,474,0.25,0.125 - 0.500
+Gentamicin,Streptococcus agalactiae,0,0,0,0,0,0,0,0,0,1,4,62,105,203,102,20,13,0,0,6,510,64.0,16 - 64
+Gentamicin,Streptococcus dysgalactiae,0,0,0,0,0,0,0,1,1,9,56,77,0,0,0,0,0,0,0,5,144,4.0,2 - 8
+Gentamicin,Streptococcus group G,0,0,0,1,1,0,1,0,3,17,62,75,58,10,1,0,0,0,0,5,229,16.0,2 - 64
+Gentamicin,Streptococcus oralis,0,0,0,0,0,0,1,2,7,13,26,24,20,23,44,74,5,0,0,5,239,32.0,1 - 512
+Gentamicin,Streptococcus pneumoniae,0,0,0,0,0,0,0,0,0,0,0,2,13,53,472,230,5,1,0,5,776,128.0,32 - 256
+Gentamicin,Streptococcus pyogenes,0,0,0,0,1,2,2,5,15,38,161,660,1418,305,33,7,0,0,237,8,2884,32.0,8 - 32
+Cefalexin,Mannheimia haemolytica,0,0,0,0,0,0,0,1,4,59,145,35,0,0,0,0,0,0,0,7,244,4.0,
+Cefalexin,Pasteurella multocida,0,0,0,0,0,0,0,0,0,9,130,138,5,0,1,0,0,0,0,7,283,8.0,2 - 8
+Cefalexin,Staphylococcus pseudintermedius,0,0,0,0,0,0,0,0,4,82,52,7,14,4,5,0,0,0,0,5,168,4.0,1.000 - 4.000
+Tigecycline,Acinetobacter baumannii,0,0,119,59,223,2143,5086,5297,6730,7246,3144,902,156,5,2,2,0,0,0,12,31114,0.5,
+Tigecycline,Acinetobacter lwoffii,0,0,26,59,296,648,844,529,267,108,43,20,4,0,0,0,0,0,0,17,2844,0.5,
+Tigecycline,Citrobacter freundii,0,0,0,0,9,62,1136,1973,615,188,78,17,0,1,1,0,0,0,0,18,4080,1.0,
+Tigecycline,Citrobacter koseri,0,0,0,2,10,198,2254,1036,221,29,8,0,2,0,0,0,0,0,0,15,3760,0.5,
+Tigecycline,Enterobacter asburiae,0,0,0,2,1,7,39,528,898,190,61,12,0,0,0,0,0,0,0,16,1738,2.0,
+Tigecycline,Enterobacter cloacae,0,0,28,26,45,166,1424,12950,31093,9602,4105,2187,650,27,12,5,0,0,0,35,62320,2.0,
+Tigecycline,Enterococcus faecalis,0,0,0,1,104,501,275,137,6,0,0,0,0,0,0,0,0,0,0,8,1024,0.25,
+Tigecycline,Enterococcus faecium,0,0,0,25,737,2376,2265,699,3,3,0,0,0,0,0,0,0,0,0,10,6108,0.25,
+Tigecycline,Escherichia coli,0,0,190,170,725,17910,46735,30621,9804,2725,825,40,6,13,2,1,0,0,0,34,109767,0.5,
+Tigecycline,Klebsiella aerogenes,0,0,4,10,12,74,1022,7418,7642,2162,996,552,105,5,1,0,0,0,0,31,20003,1.0,
+Tigecycline,Klebsiella oxytoca,0,0,29,7,18,99,2201,9878,4188,1526,687,191,24,1,1,0,0,0,0,28,18850,1.0,
+Tigecycline,Klebsiella pneumoniae,0,0,90,39,59,300,3130,21790,31110,13484,6081,2872,465,23,7,4,0,0,4,37,79458,2.0,
+Tigecycline,Moraxella catarrhalis,0,0,0,1,59,682,592,52,0,0,0,0,0,0,0,0,0,0,0,5,1386,0.25,
+Tigecycline,Morganella morganii,0,0,0,0,0,3,67,425,725,372,124,57,4,0,0,0,0,0,6,10,1783,4.0,
+Tigecycline,Proteus mirabilis,0,0,0,0,0,0,16,180,417,1237,1586,892,171,3,0,0,0,0,9,18,4511,8.0,
+Tigecycline,Proteus vulgaris,0,0,0,0,0,0,9,88,302,394,121,10,2,0,0,0,0,0,0,10,926,4.0,
+Tigecycline,Providencia stuartii,0,0,0,0,2,1,3,45,150,272,195,89,9,0,0,0,0,0,1,9,767,8.0,
+Tigecycline,Pseudomonas aeruginosa,0,0,0,0,0,0,0,1,5,7,13,47,136,290,116,27,5,3,0,6,650,64.0,
+Tigecycline,Serratia liquefaciens,0,0,0,2,0,12,157,343,173,105,38,12,2,0,0,0,0,0,0,17,844,1.0,
+Tigecycline,Serratia marcescens,0,0,44,23,19,31,240,1433,9691,15845,5403,1055,183,10,5,1,0,0,3,27,33986,4.0,
+Tigecycline,Staphylococcus aureus,0,0,0,0,5,1132,2292,1024,44,6,7,0,0,0,0,0,0,0,0,14,4510,0.5,
+Tigecycline,Staphylococcus epidermidis,0,0,0,0,0,15,105,65,59,6,1,0,0,0,0,0,0,0,0,8,251,1.0,
+Tigecycline,Staphylococcus haemolyticus,0,0,0,1,0,6,23,48,46,5,2,0,0,0,0,0,0,0,0,5,131,1.0,
+Tigecycline,Streptococcus pneumoniae,0,2,23,66,402,1495,164,4,1,0,0,0,0,0,0,0,0,0,0,5,2157,0.125,
+Vancomycin,Clostridium difficile,0,0,0,2,4,2,38,463,4514,4293,456,51,9,2,1,0,0,0,0,13,9835,2.0,1 - 2
+Vancomycin,Enterococcus faecalis,0,0,0,0,0,0,1,21,443,6453,6403,1127,31,11,152,4,22,34,8,34,14710,4.0,2 - 8
+Vancomycin,Enterococcus faecium,0,0,0,0,0,0,1,52,1158,2712,442,72,36,21,1228,19,8,110,3,18,5862,4.0,1 - 4
+Vancomycin,Listeria monocytogenes,0,0,0,0,0,0,0,1,41,317,26,0,0,0,0,0,0,0,0,4,385,-2.0,0.5 - 2
+Vancomycin,Staphylococcus aureus,0,0,0,0,0,1,69,532,13667,68537,8597,223,6,0,1,1,1,0,0,37,91635,2.0,1 - 2
+Vancomycin,Staphylococcus aureus MRSA,0,0,0,0,0,0,0,0,107,2158,331,1,0,0,0,0,0,0,0,5,2597,2.0,1 - 2
+Vancomycin,Staphylococcus capitis,0,0,0,0,0,0,0,9,100,354,84,3,0,0,0,0,0,0,0,4,550,-4.0,1 - 4
+Vancomycin,Staphylococcus epidermidis,0,0,0,0,0,0,3,27,402,5429,9006,359,4,1,0,0,0,0,0,15,15231,4.0,2 - 4
+Vancomycin,Staphylococcus haemolyticus,0,0,0,0,0,0,0,11,178,1059,838,60,0,1,0,0,0,0,0,11,2147,4.0,2 - 4
+Vancomycin,Staphylococcus hominis,0,0,0,0,0,0,0,10,151,749,245,8,0,0,0,0,0,0,0,5,1163,4.0,1 - 4
+Vancomycin,Staphylococcus saprophyticus,0,0,0,0,0,0,0,0,45,233,96,5,0,0,0,0,0,0,0,4,379,-4.0,1 - 4
+Vancomycin,Staphylococcus warneri,0,0,0,0,0,0,0,1,43,151,87,4,1,0,0,0,0,0,0,3,287,-4.0,1 - 8
+Vancomycin,Streptococcus agalactiae,0,0,0,1,0,0,2,271,2503,205,5,1,0,0,0,0,0,0,0,10,2988,1.0,0.25 - 1
+Vancomycin,Streptococcus pneumoniae,0,0,0,0,4,93,394,20132,29145,768,115,4,0,0,0,0,0,0,0,17,50655,1.0,0.5 - 1
+Vancomycin,Streptococcus pyogenes,0,0,0,0,0,3,38,3455,7129,49,0,0,0,0,0,0,0,0,0,13,10674,1.0,0.25 - 1
+Nitrofurantoin,Enterococcus faecium,0,0,0,0,0,0,0,0,0,0,0,1,15,40,331,754,781,263,0,13,2185,256.0,
+Nitrofurantoin,Escherichia coli,0,0,0,0,0,0,0,0,0,1,15,155,1304,2022,323,96,17,5,0,9,3938,64.0,
+Cefoxitin,Escherichia coli,0,0,0,0,0,0,3,76,1450,4920,28297,41022,12510,2984,2029,1881,22,19,0,30,95213,8.0,
+Cefoxitin,Klebsiella oxytoca,0,0,0,0,0,0,1,4,26,414,1375,705,212,121,36,58,0,5,0,23,2957,8.0,
+Cefoxitin,Klebsiella pneumoniae,0,0,0,0,0,0,1,7,77,1716,9839,7857,2895,1482,871,551,20,8,0,25,25324,8.0,
+Cefoxitin,Proteus mirabilis,0,0,0,0,0,0,0,3,8,269,3818,3461,487,130,53,43,1,2,0,13,8275,8.0,
+Cefoxitin,Salmonella enterica,0,0,0,0,0,0,0,5,631,3512,17713,8554,973,350,1527,1273,0,0,0,8,34538,8.0,
+Cefoxitin,Staphylococcus aureus,0,0,0,0,0,0,1,9,67,273,217,160,8,1,7,6,3,4,0,12,756,4.0,
+Erythromycin,Campylobacter coli,0,0,0,0,7,18,353,1742,2599,3767,1660,820,329,65,49,166,1315,126,9,56,13025,8.0,4 - 16
+Erythromycin,Campylobacter jejuni,0,0,0,2,22,160,2176,9802,9211,4630,1375,253,32,13,5,21,201,16,25,53,27944,4.0,4 - 16
+Erythromycin,Clostridium difficile,0,0,0,0,1,7,9,54,278,728,533,47,12,17,7,5,2,443,2128,7,4271,4.0,1 - 8
+Erythromycin,Enterococcus faecalis,0,0,0,0,1,3,2,25,169,247,258,113,18,19,8,157,57,70,350,16,1497,4.0,1 - 8
+Erythromycin,Enterococcus faecium,0,0,0,0,0,4,80,309,486,513,565,331,82,44,158,110,771,223,0,22,3676,4.0,0.5 - 4
+Erythromycin,Enterococcus hirae,0,0,0,0,0,0,0,97,403,9,8,2,5,0,0,42,2,0,0,8,568,1.0,0.25 - 1
+Erythromycin,Haemophilus influenzae,0,0,0,0,1,7,21,113,127,618,4474,15093,7781,808,100,22,23,2,6,14,29196,16.0,8 - 32
+Erythromycin,Mannheimia haemolytica,0,0,0,0,0,0,4,2,1,1,43,173,15,1,4,0,0,0,0,7,244,8.0,4 - 16
+Erythromycin,Moraxella catarrhalis,0,0,13,52,205,2279,407,73,5,2,2,0,0,0,0,0,0,0,0,8,3038,0.25,0.06 - 0.125
+Erythromycin,Pasteurella multocida,0,0,0,0,0,0,1,2,5,23,92,139,57,6,10,0,0,0,0,9,335,16.0,4 - 32
+Erythromycin,Staphylococcus aureus,0,0,0,17,62,967,4960,15963,7054,868,127,161,1026,3550,69,1293,1649,236,1037,26,39039,1.0,0.5 - 1
+Erythromycin,Staphylococcus aureus MRSA,0,0,0,0,0,0,1,164,1270,45,3,25,764,2,1,0,22,314,0,7,2611,1.0,0.5 - 1
+Erythromycin,Staphylococcus aureus MSSA,0,0,0,0,0,0,2,64,468,24,5,42,1,2,3,3,4,62,0,6,680,1.0,0.5 - 1
+Erythromycin,Staphylococcus epidermidis,0,0,0,0,1,159,247,133,84,12,5,22,55,1036,143,16,19,135,0,5,2067,1.0,0.25 - 1
+Erythromycin,Staphylococcus hyicus,0,0,0,0,0,0,10,106,156,4,0,8,0,1,49,0,0,0,0,6,334,1.0,0.25 - 1
+Erythromycin,Staphylococcus pseudintermedius,0,0,0,0,0,3,15,373,24,9,1,248,1,1,224,0,0,0,0,18,899,0.5,0.125 - 0.5
+Erythromycin,Streptococcus agalactiae,0,0,0,15,96,638,131,33,0,2,0,26,10,28,1,0,0,15,0,9,995,0.5,0.125 - 0.5
+Erythromycin,Streptococcus dysgalactiae,0,0,0,1,27,96,6,0,1,3,1,10,0,0,0,0,0,0,0,5,145,0.25,0.06 - 0.125
+Erythromycin,Streptococcus pneumoniae,0,1,4,205,2558,19210,6372,867,94,173,706,1065,856,594,720,548,5513,368,0,28,39847,0.25,0.125 - 0.5
+Erythromycin,Streptococcus pyogenes,0,0,0,66,3038,5457,1030,186,27,40,104,116,278,228,12,8,363,8,0,8,10961,0.25,0.06 - 0.5
+Erythromycin,Streptococcus uberis,0,0,0,4,38,150,13,1,0,5,1,20,0,0,0,14,0,0,0,6,246,0.25,0.06 - 0.25
+Neomycin,Campylobacter coli,0,0,0,0,0,0,0,0,194,567,120,9,1,4,3,0,0,0,0,11,898,4.0,
+Neomycin,Escherichia coli,0,0,0,0,0,0,0,1,4,1475,1421,741,94,17,91,61,21,20,0,15,3946,8.0,
+Neomycin,Mannheimia haemolytica,0,0,0,0,0,0,0,2,0,3,20,207,261,19,24,4,1,0,0,12,541,16.0,
+Neomycin,Pasteurella multocida,0,0,0,0,0,0,0,0,1,2,9,110,161,19,7,19,2,0,0,7,330,16.0,8 - 32
+Neomycin,Salmonella enterica,0,0,0,0,0,0,0,0,0,7127,1531,159,8,7,9,13,22,16,0,7,8892,4.0,
+Neomycin,Staphylococcus hyicus,0,0,0,0,0,2,23,64,35,8,4,0,0,0,0,0,0,0,0,5,136,1.0,0.250 - 2.000
+Neomycin,Staphylococcus pseudintermedius,0,0,0,0,0,1,45,138,24,3,117,0,0,0,0,0,0,0,0,7,328,1.0,0.250 - 1.000
+Imipenem,Acinetobacter baumannii,0,0,5,13,20,156,701,1145,964,631,455,167,146,513,95,104,4,3,8,28,5130,2.0,
+Imipenem,Bacteroides fragilis,2,0,0,30,236,545,810,618,226,119,48,21,13,6,6,7,7,0,0,7,2694,1.0,
+Imipenem,Citrobacter freundii,0,0,0,2,6,20,267,545,856,465,81,31,5,7,5,0,0,0,33,6,2323,2.0,
+Imipenem,Enterobacter cloacae,0,4,8,41,150,517,1551,3576,4033,1137,340,69,28,27,11,1,0,0,59,37,11552,1.0,
+Imipenem,Enterococcus faecalis,0,0,0,5,8,28,161,375,2505,6752,4697,1240,339,174,70,5,3,0,184,19,16546,4.0,
+Imipenem,Enterococcus faecium,0,0,0,0,0,11,15,18,43,112,101,213,71,3134,36,214,127,143,0,8,4238,4.0,
+Imipenem,Escherichia coli,0,0,7,39,140,2511,7480,4691,1029,215,87,28,8,9,3,5,1,0,0,63,16253,0.5,
+Imipenem,Haemophilus influenzae,0,0,5,0,18,187,322,1038,1454,605,217,77,25,7,2,1,0,0,0,13,3958,2.0,
+Imipenem,Klebsiella aerogenes,0,0,1,4,1,27,238,728,1132,992,360,76,35,23,17,14,2,1,49,26,3700,2.0,
+Imipenem,Klebsiella oxytoca,0,0,4,9,13,222,1887,1705,831,88,50,13,5,3,2,0,0,0,0,59,4832,1.0,
+Imipenem,Klebsiella pneumoniae,0,0,12,16,40,1178,11945,8132,6425,932,211,49,19,29,6,5,1,0,0,45,29000,1.0,
+Imipenem,Morganella morganii,0,0,0,1,1,3,30,34,119,479,1153,554,86,29,25,1,0,0,98,17,2613,4.0,
+Imipenem,Proteus mirabilis,0,0,1,2,2,55,548,1659,3054,4617,4101,1155,134,47,34,2,0,0,123,18,15534,4.0,
+Imipenem,Proteus vulgaris,0,0,0,0,1,8,88,124,244,370,384,150,38,12,12,0,0,0,131,11,1562,4.0,
+Imipenem,Pseudomonas aeruginosa,0,0,1,2,5,80,272,1174,8348,24802,12746,4268,4113,6840,629,366,20,27,108,69,63801,4.0,
+Imipenem,Salmonella enterica,0,0,0,0,0,70,878,2668,2232,30,12,0,0,0,0,0,0,0,0,8,5890,1.0,
+Imipenem,Serratia marcescens,0,0,1,8,1,10,149,1071,3142,2379,971,169,10,28,5,0,0,1,157,9,8102,2.0,
+Imipenem,Staphylococcus aureus,0,12,246,1457,1737,874,269,136,117,59,51,12,9,3,3,4,0,1,0,34,4990,0.125,
+Imipenem,Staphylococcus coagulase negative,6,25,157,269,242,147,107,46,38,24,14,15,10,10,16,18,0,0,0,7,1144,0.125,
+Imipenem,Streptococcus agalactiae,0,2,85,151,123,79,46,1,1,4,2,0,0,0,0,0,0,0,0,6,494,0.125,
+Imipenem,Streptococcus pneumoniae,59,666,282,98,129,41,73,39,12,0,1,1,0,0,0,0,0,0,0,9,1401,0.016,
+Imipenem,Streptococcus pyogenes,62,346,137,99,61,14,1,1,1,0,0,0,0,0,0,0,0,0,0,9,722,0.064,
+Imipenem,"Streptococcus, viridans group",0,14,66,131,113,83,37,19,24,7,1,2,0,2,0,1,0,0,0,6,500,0.125,
+Ceftolozane,Escherichia coli,0,0,0,0,1,8,730,1018,808,54,44,129,155,154,240,509,0,0,0,6,3850,1.0,
+Ceftolozane,Klebsiella pneumoniae,0,0,0,0,0,4,140,487,201,84,44,28,32,44,151,831,0,0,0,6,2046,1.0,
+Ceftolozane,Pseudomonas aeruginosa,0,0,0,0,0,0,1,39,848,940,454,461,198,45,49,673,0,0,0,8,3708,4.0,
+Ceftolozane,Streptococcus pneumoniae,0,0,0,2,0,12,92,25,11,4,7,28,9,1,1,0,0,0,0,6,192,0.5,
+Cefpirome,Escherichia coli,0,0,1,234,1503,2359,1023,268,88,47,46,20,9,14,16,9,86,5,0,7,5728,0.25,
+Telithromycin,Campylobacter jejuni,0,0,0,19,14,26,309,3282,9251,6288,1977,217,73,137,0,0,0,0,0,20,21593,4.0,1 - 4
+Telithromycin,Haemophilus influenzae,0,0,0,1,5,4,16,54,279,1846,2662,486,38,14,2,5,0,0,0,6,5412,8.0,2 - 8
+Telithromycin,Streptococcus pneumoniae,6,105,1004,3068,1451,469,238,198,178,64,30,6,4,1,1,0,0,0,0,9,6823,0.06,0.016 - 0.06
+Telithromycin,Streptococcus pyogenes,7,6,112,1250,684,119,11,21,47,15,13,16,35,20,5,5,0,0,0,6,2366,0.03,0.008 - 0.06
+Clarithromycin,Haemophilus influenzae,0,0,0,0,0,4,12,113,74,232,1229,6978,16330,4963,469,63,43,4,1,12,30515,32.0,8 - 32
+Clarithromycin,Helicobacter pylori,0,0,0,1021,1491,1372,481,107,61,88,96,199,459,793,862,551,276,1008,0,5,8865,0.25,0.125 - 1
+Clarithromycin,Streptococcus pneumoniae,0,0,16,349,10637,7221,61,44,81,384,949,434,593,228,406,5079,590,0,0,5,27072,0.125,0.016 - 0.25
+Ceftolozane-tazobactam,Citrobacter freundii,0,0,0,0,0,5,86,101,26,16,15,40,30,30,16,13,0,0,0,6,378,1.0,
+Ceftolozane-tazobactam,Enterobacter cloacae,0,0,0,0,1,4,123,531,217,87,65,96,104,87,50,61,0,0,0,8,1426,1.0,
+Ceftolozane-tazobactam,Escherichia coli,0,0,0,0,1,80,1995,1820,691,343,119,70,45,27,27,17,0,0,0,12,5235,1.0,
+Ceftolozane-tazobactam,Klebsiella aerogenes,0,0,0,0,0,0,40,81,32,33,27,26,16,0,6,0,0,0,0,5,261,1.0,
+Ceftolozane-tazobactam,Klebsiella oxytoca,0,0,0,0,1,1,144,136,48,27,23,14,4,2,2,18,0,0,0,5,420,1.0,
+Ceftolozane-tazobactam,Klebsiella pneumoniae,0,0,0,0,0,28,576,866,447,292,175,116,80,98,175,400,0,6,0,11,3259,1.0,
+Ceftolozane-tazobactam,Morganella morganii,0,0,0,0,0,1,38,154,77,13,8,4,2,2,2,2,0,0,0,5,303,1.0,
+Ceftolozane-tazobactam,Proteus mirabilis,0,0,0,0,1,0,72,477,367,35,11,2,6,4,0,0,0,0,0,5,975,1.0,
+Ceftolozane-tazobactam,Pseudomonas aeruginosa,0,0,0,0,0,0,8,150,1738,1528,737,533,225,68,82,645,2,8,0,17,5724,4.0,
+Ceftolozane-tazobactam,Serratia marcescens,0,0,0,0,0,0,6,92,526,181,34,8,6,3,2,14,0,0,0,6,872,2.0,
+Ceftolozane-tazobactam,Streptococcus pneumoniae,0,0,0,0,2,302,174,51,33,22,42,48,58,5,5,2,0,0,0,10,744,0.5,
+Ofloxacin,Escherichia coli,0,0,0,8,275,1878,629,82,110,135,33,12,131,94,290,3,0,0,0,5,3680,0.25,
+Ofloxacin,Haemophilus influenzae,0,0,4,285,3113,340,15,3,1,0,1,0,0,0,0,0,0,0,0,6,3762,0.064,
+Ofloxacin,Proteus mirabilis,0,0,0,0,1,83,617,242,31,10,20,10,6,6,6,10,0,0,0,5,1042,0.5,
+Ofloxacin,Pseudomonas aeruginosa,0,0,0,0,3,6,26,98,586,561,275,180,133,48,145,102,0,0,0,8,2163,2.0,
+Ofloxacin,Streptococcus pneumoniae,0,0,0,0,0,0,0,10,75,914,3293,194,2,18,6,0,0,0,0,7,4512,4.0,
+Cefpodoxime,Haemophilus influenzae,0,0,20,662,5220,9636,3342,1274,234,211,212,30,1,0,0,0,0,0,0,7,20842,0.25,
+Cefpodoxime,Streptococcus pneumoniae,0,0,49,378,3413,530,220,177,101,176,433,313,19,14,2,0,0,0,0,5,5825,0.125,
+Tulathromycin,Mannheimia haemolytica,0,0,0,0,0,0,0,0,5,3,30,211,79,12,7,1,0,0,0,8,348,16.0,
+Tulathromycin,Pasteurella multocida,0,0,0,0,0,0,0,0,4,60,149,87,4,1,8,0,0,0,0,8,313,8.0,
+Tulathromycin,Staphylococcus hyicus,0,0,0,0,0,0,0,0,0,0,3,57,8,2,5,0,0,0,0,3,75,-8.0,2.000 - 16.000
+Tulathromycin,Staphylococcus pseudintermedius,0,0,0,0,0,0,0,0,0,0,14,174,12,1,224,0,0,0,0,9,425,8.0,2.000 - 8.000
+Rifampicin,Clostridium difficile,3723,1829,46,11,6,3,5,4,18,12,10,4,1,0,356,50,10,0,0,9,6088,0.004,0.002 - 0.004
+Rifampicin,Enterococcus faecalis,0,0,0,0,0,29,5,63,561,1119,778,577,219,103,0,0,0,1,0,5,3455,8.0,2.000 - 16.000
+Rifampicin,Neisseria meningitidis,37,233,494,518,271,158,82,76,30,4,0,0,3,0,32,0,0,28,0,12,1966,0.125,0.031 - 0.125
+Rifampicin,Staphylococcus aureus,1,197,710,307,16,3,3,2,4,9,13,28,0,0,1,3,8,17,2,5,1324,0.03,0.008 - 0.016
+Levofloxacin,Enterococcus faecalis,0,0,0,0,1,0,32,35,464,2999,1551,134,1065,117,1205,44,6,1,185,10,7839,4.0,
+Levofloxacin,Enterococcus faecium,0,0,0,0,0,0,7,6,43,123,288,97,41,105,216,107,40,0,0,5,1073,4.0,
+Levofloxacin,Escherichia coli,0,0,4,81,1091,752,176,70,111,32,10,33,100,208,108,2,0,0,0,5,2778,0.25,
+Levofloxacin,Haemophilus influenzae,0,7,3409,16458,2652,233,64,25,21,11,16,4,9,0,1,0,0,0,0,13,22910,0.064,
+Levofloxacin,Klebsiella pneumoniae,0,0,1,3,330,1789,416,136,268,284,130,99,99,64,54,1,0,0,0,6,3674,0.25,
+Levofloxacin,Moraxella catarrhalis,0,0,6,114,4080,1003,26,5,4,19,2,0,0,0,0,0,0,0,0,8,5259,0.125,
+Levofloxacin,Morganella morganii,0,0,0,4,174,152,31,6,5,17,19,5,14,1,4,0,1,0,0,5,433,0.25,
+Levofloxacin,Proteus mirabilis,0,0,0,0,241,1827,634,123,45,75,124,98,55,13,19,3,0,0,0,9,3257,0.25,
+Levofloxacin,Pseudomonas aeruginosa,0,0,0,0,19,98,387,2884,4692,2464,1745,1203,470,289,237,296,87,0,0,11,14871,2.0,
+Levofloxacin,Staphylococcus aureus,0,0,0,0,111,1428,10558,8835,1488,310,366,2507,1781,130,39,2,1,0,0,13,27556,0.5,
+Levofloxacin,Staphylococcus coagulase negative,0,0,0,0,4,73,1655,1344,206,46,251,580,328,42,32,2,0,0,0,8,4563,0.5,
+Levofloxacin,Staphylococcus epidermidis,0,0,0,0,17,28,2026,2579,272,121,783,1767,3581,144,402,0,0,0,216,9,11936,0.5,
+Levofloxacin,Staphylococcus saprophyticus,0,0,0,0,0,3,41,30,126,13,3,20,15,14,20,0,0,0,241,5,526,0.5,
+Levofloxacin,Streptococcus agalactiae,0,0,0,0,0,1,26,914,424,984,87,11,3,6,2,0,0,0,195,10,2653,2.0,
+Levofloxacin,Streptococcus pneumoniae,0,0,0,0,0,11,83,380,16757,64740,2574,123,196,374,66,23,4,2,231,18,85564,2.0,
+Levofloxacin,Streptococcus pyogenes,0,0,0,1,0,1,23,1903,20389,2647,1578,8,10,10,0,0,0,0,238,13,26808,2.0,
+Levofloxacin,"Streptococcus, viridans group",0,0,0,0,0,0,2,16,109,188,70,11,3,3,0,1,0,0,0,6,403,2.0,
+Aztreonam,Escherichia coli,0,0,0,4,1103,1085,613,132,36,17,22,37,25,21,36,58,0,3,0,7,3192,0.25,
+Aztreonam,Pseudomonas aeruginosa,0,0,0,0,1,2,6,8,18,52,314,636,273,197,144,41,9,1,0,10,1702,16.0,
